@@ -1,0 +1,75 @@
+{
+  "branchId": "atasehir",
+  "branchName": "Burger Pub Ataşehir",
+  "categories": [
+    {
+      "id": "burgers",
+      "title": "Burgerler",
+      "items": [
+        {
+          "id": "classic-burger",
+          "name": "Classic Burger",
+          "description": "150g dana burger, cheddar, turşu, domates, marul, özel sos",
+          "price": 210,
+          "image": "/window.svg"
+        },
+        {
+          "id": "bbq-burger",
+          "name": "BBQ Burger",
+          "description": "150g dana burger, cheddar, karamelize soğan, BBQ sos",
+          "price": 235,
+          "image": "/window.svg"
+        },
+        {
+          "id": "mushroom-swiss",
+          "name": "Mushroom Swiss",
+          "description": "150g dana burger, İsviçre peyniri, sote mantar, trüf mayo",
+          "price": 255,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "title": "Atıştırmalıklar",
+      "items": [
+        {
+          "id": "truffle-fries",
+          "name": "Trüflü Patates",
+          "description": "Trüf yağlı çıtır patates, parmesan, maydanoz",
+          "price": 110,
+          "image": "/window.svg"
+        },
+        {
+          "id": "cheese-sticks",
+          "name": "Mozzarella Sticks",
+          "description": "Çıtır pane mozzarella, marinara sos",
+          "price": 130,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "title": "İçecekler",
+      "items": [
+        {
+          "id": "homemade-lemonade",
+          "name": "Ev Yapımı Limonata",
+          "description": "Taze limon suyu, şeker şurubu, nane",
+          "price": 75,
+          "image": "/window.svg"
+        },
+        {
+          "id": "cola",
+          "name": "Kola",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    }
+  ]
+}
+
+

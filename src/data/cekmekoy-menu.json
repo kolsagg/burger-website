@@ -1,0 +1,68 @@
+{
+  "branchId": "cekmekoy",
+  "branchName": "Burger Park Çekmeköy",
+  "categories": [
+    {
+      "id": "burgers",
+      "title": "Burgerler",
+      "items": [
+        {
+          "id": "spicy-burger",
+          "name": "Acılı Burger",
+          "description": "150g dana burger, jalapeno, cheddar, acı mayo",
+          "price": 225,
+          "image": "/window.svg"
+        },
+        {
+          "id": "double-cheese",
+          "name": "Double Cheese",
+          "description": "Çift köfte, çift cheddar, turşu, ketçap, hardal",
+          "price": 265,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "title": "Atıştırmalıklar",
+      "items": [
+        {
+          "id": "onion-rings",
+          "name": "Soğan Halkası",
+          "description": "Çıtır soğan halkaları, dip sos",
+          "price": 95,
+          "image": "/window.svg"
+        },
+        {
+          "id": "chicken-bites",
+          "name": "Tavuk Parçaları",
+          "description": "Kızarmış çıtır tavuk lokmaları, ballı hardal",
+          "price": 140,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "title": "İçecekler",
+      "items": [
+        {
+          "id": "ice-tea",
+          "name": "Soğuk Çay",
+          "description": "Şeftali / Limon",
+          "price": 60,
+          "image": "/window.svg"
+        },
+        {
+          "id": "mineral-water",
+          "name": "Soda",
+          "description": "Doğal maden suyu",
+          "price": 40,
+          "image": "/window.svg"
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,103 +1,184 @@
-import Image from "next/image";
+import Image from "next/image"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+import { Leaf, Sparkles, Flame, ShieldCheck } from "lucide-react"
+
+type Branch = {
+  id: string
+  name: string
+  address: string
+  menuHref: string
+}
+
+const branches: Branch[] = [
+  {
+    id: "atasehir",
+    name: "Burger Pub Ataşehir",
+    address: "Ataşehir Bulvarı No:10, Ataşehir / İstanbul",
+    menuHref: "/menu/atasehir",
+  },
+  {
+    id: "cekmekoy",
+    name: "Burger Park Çekmeköy",
+    address: "Park Caddesi No:22, Çekmeköy / İstanbul",
+    menuHref: "/menu/cekmekoy",
+  },
+]
+
+const features = [
+  {
+    title: "Taze Malzemeler",
+    description: "Günlük hazırlanan malzemelerle maksimum lezzet",
+    Icon: Leaf,
+  },
+  {
+    title: "İmza Soslar",
+    description: "Kendimize özel tariflerle fark yaratan soslar",
+    Icon: Sparkles,
+  },
+  {
+    title: "Ateşte Pişirme",
+    description: "Mükemmel mühür, kusursuz pişirme",
+    Icon: Flame,
+  },
+  {
+    title: "Hijyen ve Güven",
+    description: "Yüksek standartlarda üretim ve servis",
+    Icon: ShieldCheck,
+  },
+]
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="font-sans">
+      {/* Hero Section */}
+      <section
+        id="hero"
+        className="relative isolate flex min-h-[70vh] items-center overflow-hidden bg-primary py-20"
+        aria-label="Hero section"
+      >
+        <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-6 px-4 text-center text-primary-foreground sm:px-6 lg:px-8">
+          <h1 className="font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
+            Gurme Burger Deneyimi
+          </h1>
+          <p className="max-w-2xl text-base text-primary-foreground/80 sm:text-lg">
+            Şehrin iki yakasında aynı kalite, aynı lezzet. Menülerimizi keşfedin ve size en yakın şubeyi bulun.
+          </p>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <Link href="#branches" tabIndex={0} aria-label="Şubelere git">
+              <Button size="lg">
+                Menüleri Keşfet
+              </Button>
+            </Link>
+            <Link
+              href="/subeler"
+              aria-label="Şubeler sayfasına git"
+              className="focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-md"
+            >
+              <Button variant="secondary" size="lg">
+                Şubelerimiz
+              </Button>
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Why Us Section */}
+      <section
+        id="why-us"
+        className="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8"
+        aria-labelledby="why-us-title"
+      >
+        <div className="mx-auto max-w-3xl text-center">
+          <h2
+            id="why-us-title"
+            className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl"
+          >
+            Bizi Özel Kılan Nedir?
+          </h2>
+          <p className="mt-3 text-muted-foreground">
+            Her lokmada kalite, tazelik ve özgünlük. İşte farkımızı yaratan detaylar.
+          </p>
+        </div>
+
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {features.map(({ title, description, Icon }) => (
+            <Card key={title} className="h-full">
+              <CardHeader className="flex flex-row items-center gap-3">
+                <div className="inline-flex size-10 items-center justify-center rounded-full bg-primary/10 text-primary">
+                  <Icon className="size-5" aria-hidden />
+                </div>
+                <CardTitle className="text-base">{title}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription>{description}</CardDescription>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      {/* Branches Section */}
+      <section
+        id="branches"
+        className="mx-auto w-full max-w-7xl px-4 pb-20 sm:px-6 lg:px-8"
+        aria-labelledby="branches-title"
+      >
+        <div className="mx-auto mb-8 max-w-3xl text-center">
+          <h2
+            id="branches-title"
+            className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl"
+          >
+            Şubelerimiz
+          </h2>
+          <p className="mt-3 text-muted-foreground">
+            Size en yakın Burgerpark şubesini seçin ve menüyü inceleyin.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+          {branches.map((b) => (
+            <Card key={b.id} className="overflow-hidden">
+                <div className="relative aspect-[16/9] w-full bg-gradient-to-br from-primary/10 to-secondary">
+                {/* Placeholder visual; replace with real branch photo at /public/branch-{id}.jpg */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <Image
+                    src="/window.svg"
+                    alt="Branch placeholder"
+                    width={64}
+                    height={64}
+                    className="opacity-50"
+                  />
+                </div>
+              </div>
+              <CardHeader>
+                <CardTitle className="text-xl">{b.name}</CardTitle>
+                <CardDescription>{b.address}</CardDescription>
+              </CardHeader>
+              <CardFooter className="pt-0">
+                <Link
+                  href={b.menuHref}
+                  className="focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-md"
+                  aria-label={`${b.name} menüsünü görüntüle`}
+                >
+                  <Button className="bg-accent text-accent-foreground hover:bg-accent/90">
+                    Menüyü Görüntüle
+                  </Button>
+                </Link>
+              </CardFooter>
+            </Card>
+          ))}
+        </div>
+      </section>
     </div>
-  );
+  )
 }
