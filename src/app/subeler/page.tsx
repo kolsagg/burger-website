@@ -38,7 +38,7 @@ export default function BranchesPage() {
 
             <CardHeader>
               <CardTitle className="text-xl">{b.name}</CardTitle>
-              <CardDescription>{b.address}</CardDescription>
+              <CardDescription>{b.description}</CardDescription>
             </CardHeader>
 
             <CardContent className="space-y-2 text-sm text-muted-foreground">
@@ -47,6 +47,9 @@ export default function BranchesPage() {
               </p>
               <p>
                 <span className="font-medium text-foreground">Çalışma Saatleri:</span> {b.hours}
+              </p>
+              <p>
+                <span className="font-medium text-foreground">Adres:</span> {b.address}
               </p>
             </CardContent>
 

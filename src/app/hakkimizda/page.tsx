@@ -1,27 +1,33 @@
-import type { Metadata } from "next"
-import Link from "next/link"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Leaf, Sparkles, ShieldCheck, ChevronDown } from "lucide-react"
+import type { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from "@/components/ui/card";
+import { Leaf, Sparkles, ShieldCheck, ChevronDown } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem,
-} from "@/components/ui/dropdown-menu"
-import { branches } from "@/data/branches"
+} from "@/components/ui/dropdown-menu";
+import { branches } from "@/data/branches";
 
 export const metadata: Metadata = {
   title: "Hakkımızda | Burgerpark",
   description:
     "Burgerpark'ın hikayesi, değerleri ve vizyonu. Taze malzeme, el yapımı soslar ve yüksek hijyen standartlarıyla gurme burger deneyimi.",
-}
+};
 
 const values = [
   {
     title: "Taze Malzemeler",
-    description: "Günlük hazırlanmış, özenle seçilmiş tedarikçiler",
+    description: "Günlük hazırlanmış, özenle seçilmiş tedarikçiler ve mutfaktan kendimiz yapıyoruz.",
     Icon: Leaf,
   },
   {
@@ -34,7 +40,7 @@ const values = [
     description: "Sıkı denetimler ve eğitimli ekip",
     Icon: ShieldCheck,
   },
-]
+];
 
 export default function AboutPage() {
   return (
@@ -43,13 +49,16 @@ export default function AboutPage() {
       <section className="relative overflow-hidden rounded-xl border bg-gradient-to-br from-primary/5 to-background">
         <div className="grid gap-8 p-10 sm:grid-cols-2 sm:items-center">
           <div>
-            <h1 className="font-heading text-3xl font-bold tracking-tight sm:text-4xl">Burgerpark Hakkında</h1>
+            <h1 className="font-heading text-3xl font-bold tracking-tight sm:text-4xl">
+              Burgerpark Hakkında
+            </h1>
             <p className="mt-3 text-muted-foreground">
-              Gurme burger tutkumuzu; taze malzeme, usta dokunuş ve misafirperverlikle birleştiriyoruz.
+              Gurme burger tutkumuzu; taze malzeme, usta dokunuş ve
+              misafirperverlikle birleştiriyoruz.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href="/subeler" aria-label="Şubeler sayfasına git">
-              <Button>Şubeler</Button>
+                <Button>Şubeler</Button>
               </Link>
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -80,7 +89,12 @@ export default function AboutPage() {
           </div>
           <div className="relative">
             <div className="relative aspect-[4/3] w-full">
-              <Image src="/window.svg" alt="Burgerpark" fill className="object-contain opacity-80" />
+              <Image
+                src="/window.svg"
+                alt="Burgerpark"
+                fill
+                className="object-contain opacity-80"
+              />
             </div>
           </div>
         </div>
@@ -88,26 +102,30 @@ export default function AboutPage() {
 
       {/* Timeline / Story */}
       <section className="mt-12">
-        <h2 className="font-heading text-2xl font-semibold tracking-tight">Hikayemiz</h2>
-        <div className="mt-6 grid gap-6 sm:grid-cols-3">
-          {[
-            { year: "2018", text: "İlk tarif ve marka vizyonu oluştu" },
-            { year: "2020", text: "Ataşehir şubesi ile kapılarımızı açtık" },
-            { year: "2023", text: "Çekmeköy şubesiyle lezzeti yaydık" },
-          ].map((item) => (
-            <Card key={item.year}>
-              <CardHeader>
-                <CardTitle className="text-xl">{item.year}</CardTitle>
-                <CardDescription>{item.text}</CardDescription>
-              </CardHeader>
-            </Card>
-          ))}
-        </div>
+        <h2 className="font-heading text-2xl font-semibold tracking-tight">
+          Hikayemiz
+        </h2>
+        <Card className="bg-background/50 mt-4 p-4">
+          <CardHeader>
+            <CardDescription>
+              Burgerpark, “sade ama özenli” bir gurme burger deneyimi için
+              kuruldu. Etimizi günlük taze çekimle hazırlıyor, ekmeğimizi
+              fırından çıktığı gün kullanıyor, soslarımızı kendi tariflerimizle
+              elde yapıyoruz. Patatesleri çift kızartma tekniğiyle dışı çıtır,
+              içi yumuşak kıvamda sunuyoruz. Ekip eğitiminden hijyen
+              denetimlerine kadar tüm süreçleri şeffaf ve titizlikle
+              yönetiyoruz. Amacımız, her ziyarette aynı lezzeti ve sıcak
+              karşılamayı sunmak; mahallenizin güvenilir burger durağı olmak.
+            </CardDescription>
+          </CardHeader>
+        </Card>
       </section>
 
       {/* Values */}
       <section className="mt-12">
-        <h2 className="font-heading text-2xl font-semibold tracking-tight">Değerlerimiz</h2>
+        <h2 className="font-heading text-2xl font-semibold tracking-tight">
+          Değerlerimiz
+        </h2>
         <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
           {values.map(({ title, description, Icon }) => (
             <Card key={title}>
@@ -125,7 +143,5 @@ export default function AboutPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }
-
-

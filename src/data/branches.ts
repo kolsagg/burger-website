@@ -7,28 +7,31 @@ export type BranchInfo = {
   coords: { lat: number; lng: number }
   images: string[]
   menuSlug: string
+  description: string
 }
 
 export const branches: BranchInfo[] = [
   {
     name: "Burger Pub Ataşehir",
     slug: "atasehir",
-    address: "Ataşehir Bulvarı No:10, Ataşehir / İstanbul",
+    address: "Ataşehir Bulvarı, Ata Blokları 3-3 , Ataşehir / İstanbul",
     phone: "+90 216 000 00 00",
-    hours: "Haftaiçi 11:00–23:00, Haftasonu 11:00–00:00",
-    coords: { lat: 40.9929, lng: 29.1276 },
+    hours: "Haftaiçi 12:00–00:00, Haftasonu 12:00–00:00",
+    coords: { lat: 40.99264122460218, lng:  29.12211500458104 },
     images: ["/window.svg", "/globe.svg", "/file.svg"],
     menuSlug: "atasehir",
+    description: "Burger Pub Ataşehir, özgün hamburgerleri, hotdogları ve zengin içecek menüsüyle şehrin kalbinde keyifli bir buluşma noktası. Samimi atmosferi, özenle seçilmiş alkollü içecekleri ve lezzetli atıştırmalıklarıyla arkadaşlarınızla vakit geçirmek için ideal. Şehrin enerjisini hissetmek ve gerçek bir pub deneyimi yaşamak için sizi bekliyoruz.",
   },
   {
     name: "Burger Park Çekmeköy",
     slug: "cekmekoy",
-    address: "Park Caddesi No:22, Çekmeköy / İstanbul",
+    address: "Mimar Sinan, Mimar Sinan Cd. No: 9/A, 34782 Çekmeköy / İstanbul",
     phone: "+90 216 111 11 11",
-    hours: "Haftaiçi 11:00–23:00, Haftasonu 11:00–00:00",
-    coords: { lat: 41.026, lng: 29.199 },
+    hours: "Haftaiçi 11:00–22:00, Haftasonu 11:00–22:00",
+    coords: { lat: 41.033092205761974, lng: 29.174915641106907 },
     images: ["/window.svg", "/globe.svg", "/file.svg"],
     menuSlug: "cekmekoy",
+    description: "Burger Park Çekmeköy, kafe konseptiyle öne çıkan bir şubemizdir. Hem özenle hazırlanan burger ve hotdoglarımızı tadabilir, hem de kahve, çay, limonata veya milkshake gibi sıcak-soğuk içeceklerimiz eşliğinde keyifli vakit geçirebilirsiniz. Samimi ve rahat atmosferiyle, arkadaşlarınızla buluşmak veya sakin bir mola vermek için ideal bir ortam sunar.",
   },
 ]
 

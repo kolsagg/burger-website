@@ -1,26 +1,27 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { MenuIcon, ChevronDown } from "lucide-react"
+import React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { MenuIcon, ChevronDown } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
 import {
   Sheet,
   SheetTrigger,
   SheetContent,
   SheetHeader,
   SheetTitle,
-} from "@/components/ui/sheet"
+} from "@/components/ui/sheet";
 
 type NavItem = {
-  label: string
-  href: string
-}
+  label: string;
+  href: string;
+};
 
 const navItems: NavItem[] = [
   { label: "Ana Sayfa", href: "/" },
@@ -28,37 +29,43 @@ const navItems: NavItem[] = [
   { label: "Şubeler", href: "/subeler" },
   { label: "Galeri", href: "/galeri" },
   { label: "İletişim", href: "/iletisim" },
-]
+];
 
 const menuItems = [
   { label: "Burger Pub Ataşehir", href: "/menu/atasehir" },
   { label: "Burger Park Çekmeköy", href: "/menu/cekmekoy" },
-]
+];
 
 const linkBaseClass =
-  "text-base font-medium transition-colors hover:text-accent focus:text-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-xs px-2 py-1"
+  "text-primary-foreground/80 font-medium transition-colors hover:text-accent focus:text-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-xs px-2 py-1";
 
 export const SiteHeader = () => {
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   const handleKeyDown: React.KeyboardEventHandler<HTMLAnchorElement> = (
-    event,
+    event
   ) => {
     if (event.key === "Enter" || event.key === " ") {
-      ;(event.target as HTMLAnchorElement)?.click()
+      (event.target as HTMLAnchorElement)?.click();
     }
-  }
+  };
+
+  const [isSheetOpen, setIsSheetOpen] = React.useState(false);
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-40 w-full border-b bg-primary font-heading shadow-sm">
+      <div
+        className={
+          "mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
+        }
+      >
         {/* Logo */}
         <Link
           href="/"
-          className="font-heading text-xl font-bold tracking-wide text-foreground hover:text-accent focus:text-muted-foreground focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-xs"
+          className="font-heading text-xl font-bold tracking-wide text-primary-foreground hover:text-accent rounded-xs"
           aria-label="Burgerpark anasayfa"
         >
-          Burgerpark
+          BURGERPARK
         </Link>
 
         {/* Desktop Nav */}
@@ -91,9 +98,13 @@ export const SiteHeader = () => {
                 Menüler <ChevronDown className="size-4" aria-hidden />
               </button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent align="start">
+            <DropdownMenuContent align="start" className="bg-background">
               {menuItems.map((item) => (
-                <DropdownMenuItem key={item.href} asChild>
+                <DropdownMenuItem
+                  key={item.href}
+                  asChild
+                  className="font-heading"
+                >
                   <Link
                     href={item.href}
                     className="w-full px-2 py-1.5"
@@ -122,21 +133,24 @@ export const SiteHeader = () => {
         </nav>
 
         {/* Mobile Menu */}
+        
         <div className="md:hidden">
-          <Sheet>
+          <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
               <button
                 aria-label="Menüyü aç"
-                className="inline-flex items-center justify-center rounded-xs border px-3 py-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                className="inline-flex items-center justify-center rounded-xl border border-accent px-3 py-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
               >
-                <MenuIcon className="size-5" aria-hidden />
+                <MenuIcon className="size-5 text-accent" aria-hidden />
               </button>
             </SheetTrigger>
-            <SheetContent side="right" className="gap-0 p-0">
+            <SheetContent side="right" className="gap-0 p-0 bg-background/80 backdrop-blur-sm">
               <SheetHeader className="p-4">
-                <SheetTitle className="font-heading text-lg">Burgerpark</SheetTitle>
+                <SheetTitle className="font-heading text-lg">
+                  Burgerpark
+                </SheetTitle>
               </SheetHeader>
-              <nav className="flex flex-col" aria-label="Mobil navigasyon">
+              <nav className="flex flex-col" aria-label="Mobil navigasyon" onClick={() => setIsSheetOpen(false)}>
                 {navItems.map((item) => (
                   <Link
                     key={item.href}
@@ -164,7 +178,7 @@ export const SiteHeader = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default SiteHeader
+export default SiteHeader;

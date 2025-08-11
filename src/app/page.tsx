@@ -1,6 +1,6 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -8,15 +8,21 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
-import { Leaf, Sparkles, Flame, ShieldCheck } from "lucide-react"
+} from "@/components/ui/card";
+import { Leaf, Sparkles, Flame, ShieldCheck } from "lucide-react";
+import {
+  MarqueeItem,
+  MarqueeContent,
+  MarqueeFade,
+  Marquee,
+} from "@/components/ui/marquee";
 
 type Branch = {
-  id: string
-  name: string
-  address: string
-  menuHref: string
-}
+  id: string;
+  name: string;
+  address: string;
+  menuHref: string;
+};
 
 const branches: Branch[] = [
   {
@@ -31,7 +37,7 @@ const branches: Branch[] = [
     address: "Park Caddesi No:22, Çekmeköy / İstanbul",
     menuHref: "/menu/cekmekoy",
   },
-]
+];
 
 const features = [
   {
@@ -54,7 +60,7 @@ const features = [
     description: "Yüksek standartlarda üretim ve servis",
     Icon: ShieldCheck,
   },
-]
+];
 
 export default function Home() {
   return (
@@ -62,22 +68,36 @@ export default function Home() {
       {/* Hero Section */}
       <section
         id="hero"
-        className="relative isolate flex min-h-[70vh] items-center overflow-hidden bg-primary py-20"
+        className="relative isolate flex min-h-[94vh] items-center overflow-hidden bg-primary py-20"
         aria-label="Hero section"
       >
-        <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-6 px-4 text-center text-primary-foreground sm:px-6 lg:px-8">
+        <div className="absolute inset-0 -z-10 flex h-full w-full items-center justify-center">
+          <Marquee>
+            <MarqueeContent pauseOnHover={false} play={true}>
+              <MarqueeItem>
+                <Image
+                  src="/window.svg"
+                  alt="Branch placeholder"
+                  width={1024}
+                  height={768}
+                  className="opacity-50"
+                />
+              </MarqueeItem>
+            </MarqueeContent>
+          </Marquee>
+        </div>
+        <div className="mx-auto flex w-full max-w-7xl flex-col items-start gap-6 px-4 text-left text-primary-foreground sm:px-6 lg:px-8">
           <h1 className="font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
             Gurme Burger Deneyimi
           </h1>
           <p className="max-w-2xl text-base text-primary-foreground/80 sm:text-lg">
-            Şehrin iki yakasında aynı kalite, aynı lezzet. Menülerimizi keşfedin ve size en yakın şubeyi bulun.
+            Şehrin iki yakasında aynı kalite, aynı lezzet. Menülerimizi keşfedin
+            ve size en yakın şubeyi bulun.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-3">
+          <div className="flex flex-wrap items-start justify-start gap-3">
             <Link href="#branches" tabIndex={0} aria-label="Şubelere git">
-              <Button size="lg">
-                Menüleri Keşfet
-              </Button>
+              <Button size="lg">Menüleri Keşfet</Button>
             </Link>
             <Link
               href="/subeler"
@@ -106,7 +126,8 @@ export default function Home() {
             Bizi Özel Kılan Nedir?
           </h2>
           <p className="mt-3 text-muted-foreground">
-            Her lokmada kalite, tazelik ve özgünlük. İşte farkımızı yaratan detaylar.
+            Her lokmada kalite, tazelik ve özgünlük. İşte farkımızı yaratan
+            detaylar.
           </p>
         </div>
 
@@ -148,7 +169,7 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {branches.map((b) => (
             <Card key={b.id} className="overflow-hidden">
-                <div className="relative aspect-[16/9] w-full bg-gradient-to-br from-primary/10 to-secondary">
+              <div className="relative aspect-[16/9] w-full bg-gradient-to-br from-primary/10 to-secondary">
                 {/* Placeholder visual; replace with real branch photo at /public/branch-{id}.jpg */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <Image
@@ -179,6 +200,47 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <section className="mx-auto w-full max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
+        <div className="mx-auto mb-8 max-w-3xl text-center">
+          <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
+            Markalarımız
+          </h2>
+          <p className="mt-3 text-muted-foreground">Markalarımızı keşfedin.</p>
+        </div>
+        <Marquee className="w-full">
+          <MarqueeFade side="left" />
+          <MarqueeContent>
+            <MarqueeItem>
+              <Image
+                src="/window.svg"
+                alt="Branch placeholder"
+                width={64}
+                height={64}
+                className="opacity-50"
+              />
+            </MarqueeItem>
+            <MarqueeItem>
+              <Image
+                src="/globe.svg"
+                alt="Branch placeholder"
+                width={64}
+                height={64}
+                className="opacity-50"
+              />
+            </MarqueeItem>
+            <MarqueeItem>
+              <Image
+                src="/window.svg"
+                alt="Branch placeholder"
+                width={64}
+                height={64}
+                className="opacity-50"
+              />
+            </MarqueeItem>
+          </MarqueeContent>
+          <MarqueeFade side="right" />
+        </Marquee>
+      </section>
     </div>
-  )
+  );
 }

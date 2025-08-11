@@ -89,6 +89,8 @@ const ContactForm = () => {
             onChange={handleChange("fullName")}
             className="rounded-md border px-3 py-2 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring"
             aria-invalid={!form.fullName ? true : undefined}
+            disabled={true}
+            aria-disabled={true}
           />
         </div>
         <div className="flex flex-col gap-2">
@@ -101,6 +103,8 @@ const ContactForm = () => {
             onChange={handleChange("email")}
             className="rounded-md border px-3 py-2 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring"
             aria-invalid={form.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email) ? true : undefined}
+            disabled={true}
+            aria-disabled={true}
           />
         </div>
       </div>
@@ -113,6 +117,8 @@ const ContactForm = () => {
           value={form.phone}
           onChange={handleChange("phone")}
           className="rounded-md border px-3 py-2 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          disabled={true}
+          aria-disabled={true}
         />
       </div>
 
@@ -125,18 +131,24 @@ const ContactForm = () => {
           value={form.message}
           onChange={handleChange("message")}
           className="rounded-md border px-3 py-2 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          disabled={true}
+          aria-disabled={true}
         />
       </div>
 
-      <div className="pt-2">
+      <div className="pt-2 flex flex-row justify-between items-center">
         <button
           type="submit"
-        className="inline-flex items-center justify-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground transition hover:bg-accent/90 focus-visible:ring-2 focus-visible:ring-ring"
-          disabled={isSubmitting}
+        className="inline-flex items-center justify-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground disabled:opacity-50 focus-visible:ring-2 focus-visible:ring-ring"
+          disabled={true}
           aria-busy={isSubmitting}
+          aria-disabled={true}
         >
           {isSubmitting ? "Gönderiliyor..." : "Gönder"}
         </button>
+        <p className="text-sm text-muted-foreground">
+          <span className="font-bold">Not:</span> Bu form şu an kullanım dışıdır. Lütfen e-posta adresinizle iletişime geçiniz.
+        </p>
       </div>
     </form>
   )
