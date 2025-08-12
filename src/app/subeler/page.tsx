@@ -31,7 +31,7 @@ export default function BranchesPage() {
             <div className="grid grid-cols-3 gap-1 bg-muted/30 p-1">
               {b.images.map((src, idx) => (
                 <div key={src + idx} className="relative aspect-[4/3] w-full">
-                  <Image src={src} alt={`${b.name} görseli ${idx + 1}`} fill className="object-contain opacity-80" />
+                  <Image src={src} alt={`${b.name} görseli ${idx + 1}`} fill className="object-contain opacity-85" />
                 </div>
               ))}
             </div>

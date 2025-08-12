@@ -3,66 +3,175 @@
   "branchName": "Burger Park Çekmeköy",
   "categories": [
     {
-      "id": "burgers",
-      "title": "Burgerler",
-      "items": [
-        {
-          "id": "spicy-burger",
-          "name": "Acılı Burger",
-          "description": "150g dana burger, jalapeno, cheddar, acı mayo",
-          "price": 225,
-          "image": "/window.svg"
-        },
-        {
-          "id": "double-cheese",
-          "name": "Double Cheese",
-          "description": "Çift köfte, çift cheddar, turşu, ketçap, hardal",
-          "price": 265,
-          "image": "/window.svg"
-        }
-      ]
-    },
-    {
       "id": "snacks",
       "title": "Atıştırmalıklar",
       "items": [
         {
-          "id": "onion-rings",
-          "name": "Soğan Halkası",
-          "description": "Çıtır soğan halkaları, dip sos",
-          "price": 95,
+          "id": "truffle-fries",
+          "name": "Trüflü Patates",
+          "description": "Trüf yağlı çıtır patates, parmesan, maydanoz",
+          "price": 110,
           "image": "/window.svg"
         },
         {
-          "id": "chicken-bites",
-          "name": "Tavuk Parçaları",
-          "description": "Kızarmış çıtır tavuk lokmaları, ballı hardal",
-          "price": 140,
+          "id": "cheese-sticks",
+          "name": "Mozzarella Sticks",
+          "description": "Çıtır pane mozzarella, marinara sos",
+          "price": 130,
           "image": "/window.svg"
         }
       ]
     },
     {
-      "id": "drinks",
-      "title": "İçecekler",
+      "id": "burgers",
+      "title": "Burgerler",
       "items": [
         {
-          "id": "ice-tea",
-          "name": "Soğuk Çay",
-          "description": "Şeftali / Limon",
-          "price": 60,
+          "id": "classic-burger",
+          "name": "Classic Burger",
+          "description": "150g dana burger, cheddar, turşu, domates, marul, özel sos",
+          "price": 210,
           "image": "/window.svg"
         },
         {
-          "id": "mineral-water",
-          "name": "Soda",
-          "description": "Doğal maden suyu",
-          "price": 40,
+          "id": "bbq-burger",
+          "name": "BBQ Burger",
+          "description": "150g dana burger, cheddar, karamelize soğan, BBQ sos",
+          "price": 235,
+          "image": "/window.svg"
+        },
+        {
+          "id": "mushroom-swiss",
+          "name": "Mushroom Swiss",
+          "description": "150g dana burger, İsviçre peyniri, sote mantar, trüf mayo",
+          "price": 255,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "hot-dogs",
+      "title": "Hot Dog",
+      "items": [
+        {
+          "id": "classic-hot-dog",
+          "name": "Classic Hot Dog",
+          "description": "150g dana burger, cheddar, turşu, domates, marul, özel sos",
+          "price": 210,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "tenders-and-chicken-shots",
+      "title": "Tenders ve Chicken Shots",
+      "items": [
+        {
+          "id": "chicken-tenders",
+          "name": "Chicken Tenders",
+          "description": "Taze limon suyu, şeker şurubu, nane",
+          "price": 75,
+          "image": "/window.svg"
+        },
+        {
+          "id": "chicken-shots",
+          "name": "Chicken Shots",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "chicken-burgers",
+      "title": "Tavuk Burgerler",
+      "items": [
+        {
+          "id": "draft-beer-1",
+          "name": "Draft Beer 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "chicken-wraps",
+      "title": "Chicken Wraps",
+      "items": [
+        {
+          "id": "chicken-wrap-1",
+          "name": "Chicken Wrap 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "chicken-combos",
+      "title": "Chicken Combos",
+      "items": [
+        {
+          "id": "chicken-combo-1",
+          "name": "Chicken Combo 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "soft-drinks",
+      "title": "Soğuk İçecekler",
+      "items": [
+        {
+          "id": "soft-drink-1",
+          "name": "Soft Drink 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "hot-coffees",
+      "title": "Sıcak Kahveler",
+      "items": [
+        {
+          "id": "hot-coffee-1",
+          "name": "Hot Coffee 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "ice-coffees",
+      "title": "Soğuk Kahveler",
+      "items": [
+        {
+          "id": "ice-coffee-1",
+          "name": "Ice Coffee 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "hot-drinks",
+      "title": "Sıcak İçecekler",
+      "items": [
+        {
+          "id": "hot-drink-1",
+          "name": "Hot Drink 1",
+          "description": "33cl",
+          "price": 55,
           "image": "/window.svg"
         }
       ]
     }
   ]
 }
-
-

@@ -1,21 +1,18 @@
-import Link from "next/link"
-import { Facebook, Instagram } from "lucide-react"
+import Link from "next/link";
+import Image from "next/image";
 
 export type Branch = {
-  id: string
-  name: string
-  addressLines: string[]
-  phone: string
-}
+  id: string;
+  name: string;
+  addressLines: string[];
+  phone: string;
+};
 
 const branches: Branch[] = [
   {
     id: "atasehir",
     name: "Burger Pub Ataşehir",
-    addressLines: [
-      "Ataşehir Bulvarı, Ata Blokları 3-3",
-      "Ataşehir, İstanbul",
-    ],
+    addressLines: ["Ataşehir Bulvarı, Ata Blokları 3-3", "Ataşehir, İstanbul"],
     phone: "+90 216 000 00 00",
   },
   {
@@ -27,7 +24,7 @@ const branches: Branch[] = [
     ],
     phone: "+90 216 111 11 11",
   },
-]
+];
 
 const navItems = [
   { label: "Ana Sayfa", href: "/" },
@@ -35,22 +32,33 @@ const navItems = [
   { label: "Şubeler", href: "/subeler" },
   { label: "Galeri", href: "/galeri" },
   { label: "İletişim", href: "/iletisim" },
-]
+];
 
 const linkClass =
-  "text-sm text-primary-foreground/80 hover:text-primary focus:text-primary focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-xs"
+  "text-sm text-primary-foreground/80 hover:text-accent focus:text-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-xs";
 
 const SiteFooter = () => {
-  const year = new Date().getFullYear()
+  const year = new Date().getFullYear();
 
   return (
     <footer className="border-t bg-primary">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 py-10 sm:px-6 md:grid-cols-3 lg:px-8">
         {/* Brand */}
         <div>
-          <div className="font-heading text-xl font-bold text-primary-foreground">Burgerpark</div>
+          <div className="flex items-center gap-10">
+            <div className="font-semibold text-xl text-primary-foreground">
+              BURGERPARK
+            </div>
+            <Image
+              src="/burgerpark-logo.png"
+              alt="Burgerpark"
+              width={100}
+              height={100}
+            />
+          </div>
           <p className="mt-2 max-w-sm text-sm text-primary-foreground/80">
-            Gurme burger deneyimini şehrin iki yakasında aynı kaliteyle sunuyoruz.
+            Gurme burger deneyimini şehrin iki yakasında aynı kaliteyle
+            sunuyoruz.
           </p>
         </div>
 
@@ -78,7 +86,9 @@ const SiteFooter = () => {
           <ul className="mt-3 space-y-4">
             {branches.map((b) => (
               <li key={b.id}>
-                <div className="font-bold text-primary-foreground">{b.name}</div>
+                <div className="font-bold text-primary-foreground">
+                  {b.name}
+                </div>
                 <div className="text-sm text-primary-foreground/80">
                   {b.addressLines.map((line, idx) => (
                     <div key={idx}>{line}</div>
@@ -86,7 +96,7 @@ const SiteFooter = () => {
                 </div>
                 <Link
                   href={`tel:${b.phone.replace(/[^+\d]/g, "")}`}
-                  className="mt-1 inline-flex text-sm text-primary-foreground/80 hover:text-primary focus:text-primary focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-xs"
+                  className="mt-1 inline-flex text-sm text-primary-foreground/80 hover:text-accent focus:text-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-xs"
                   aria-label={`${b.name} telefon ara`}
                 >
                   {b.phone}
@@ -102,7 +112,7 @@ const SiteFooter = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default SiteFooter
+export default SiteFooter;

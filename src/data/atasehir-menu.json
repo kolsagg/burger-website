@@ -3,6 +3,26 @@
   "branchName": "Burger Pub Ataşehir",
   "categories": [
     {
+      "id": "snacks",
+      "title": "Atıştırmalıklar",
+      "items": [
+        {
+          "id": "truffle-fries",
+          "name": "Trüflü Patates",
+          "description": "Trüf yağlı çıtır patates, parmesan, maydanoz",
+          "price": 110,
+          "image": "/window.svg"
+        },
+        {
+          "id": "cheese-sticks",
+          "name": "Mozzarella Sticks",
+          "description": "Çıtır pane mozzarella, marinara sos",
+          "price": 130,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
       "id": "burgers",
       "title": "Burgerler",
       "items": [
@@ -30,39 +50,175 @@
       ]
     },
     {
-      "id": "snacks",
-      "title": "Atıştırmalıklar",
+      "id": "hot-dogs",
+      "title": "Hot Dog",
       "items": [
         {
-          "id": "truffle-fries",
-          "name": "Trüflü Patates",
-          "description": "Trüf yağlı çıtır patates, parmesan, maydanoz",
-          "price": 110,
-          "image": "/window.svg"
-        },
-        {
-          "id": "cheese-sticks",
-          "name": "Mozzarella Sticks",
-          "description": "Çıtır pane mozzarella, marinara sos",
-          "price": 130,
+          "id": "classic-hot-dog",
+          "name": "Classic Hot Dog",
+          "description": "150g dana burger, cheddar, turşu, domates, marul, özel sos",
+          "price": 210,
           "image": "/window.svg"
         }
       ]
     },
     {
-      "id": "drinks",
-      "title": "İçecekler",
+      "id": "cocktails",
+      "title": "Kokteyl",
       "items": [
         {
-          "id": "homemade-lemonade",
-          "name": "Ev Yapımı Limonata",
+          "id": "cocktail-1",
+          "name": "Cocktail 1",
           "description": "Taze limon suyu, şeker şurubu, nane",
           "price": 75,
           "image": "/window.svg"
         },
         {
-          "id": "cola",
-          "name": "Kola",
+          "id": "cocktail-2",
+          "name": "Cocktail 2",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "draft-beers",
+      "title": "Fıçı Bira",
+      "items": [
+        {
+          "id": "draft-beer-1",
+          "name": "Draft Beer 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "beers",
+      "title": "Bira",
+      "items": [
+        {
+          "id": "beer-1",
+          "name": "Beer 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "gin",
+      "title": "Gin",
+      "items": [
+        {
+          "id": "gin-1",
+          "name": "Gin 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "vodka",
+      "title": "Vodka",
+      "items": [
+        {
+          "id": "vodka-1",
+          "name": "Vodka 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "whisky",
+      "title": "Viski",
+      "items": [
+        {
+          "id": "whisky-1",
+          "name": "Whisky 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "rum",
+      "title": "Rom",
+      "items": [
+        {
+          "id": "rum-1",
+          "name": "Rum 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "title": "Şarap",
+      "items": [
+        {
+          "id": "wine-1",
+          "name": "Wine 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "shots",
+      "title": "Shot",
+      "items": [
+        {
+          "id": "shot-1",
+          "name": "Shot 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "soft-drinks",
+      "title": "Soğuk İçecekler",
+      "items": [
+        {
+          "id": "soft-drink-1",
+          "name": "Soft Drink 1",
+          "description": "33cl",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "hot-drinks",
+      "title": "Sıcak İçecekler",
+      "items": [
+        {
+          "id": "hot-drink-1",
+          "name": "Hot Drink 1",
+          "description": "Sadece 11:00-17:00 arası",
+          "price": 55,
+          "image": "/window.svg"
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Çerezler",
+      "items": [
+        {
+          "id": "cookie-1",
+          "name": "Cookie 1",
           "description": "33cl",
           "price": 55,
           "image": "/window.svg"
@@ -71,5 +227,3 @@
     }
   ]
 }
-
-

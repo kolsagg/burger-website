@@ -28,13 +28,13 @@ const branches: Branch[] = [
   {
     id: "atasehir",
     name: "Burger Pub Ataşehir",
-    address: "Ataşehir Bulvarı No:10, Ataşehir / İstanbul",
+    address: "Atatürk Mah. Atatürk Blv. Ata Blokları 3/3 No:3 , Ataşehir / İstanbul",
     menuHref: "/menu/atasehir",
   },
   {
     id: "cekmekoy",
     name: "Burger Park Çekmeköy",
-    address: "Park Caddesi No:22, Çekmeköy / İstanbul",
+    address: "Mimar Sinan, Mimar Sinan Cd. No: 9/A, 34782 Çekmeköy / İstanbul",
     menuHref: "/menu/cekmekoy",
   },
 ];
@@ -76,11 +76,32 @@ export default function Home() {
             <MarqueeContent pauseOnHover={false} play={true}>
               <MarqueeItem>
                 <Image
-                  src="/window.svg"
-                  alt="Branch placeholder"
+                  src="/anasayfa1.png"
+                  alt="burger pub"
+                  width={1625}
+                  height={1024}
+                  className="opacity-70 rounded-md"
+                  priority
+                />
+              </MarqueeItem>
+              <MarqueeItem>
+                <Image
+                  src="/burgerpark-hotdog.jpg"
+                  alt="burger park hotdog"
                   width={1024}
-                  height={768}
-                  className="opacity-50"
+                  height={1024}
+                  className="opacity-70 rounded-md"
+                  priority
+                />
+              </MarqueeItem>
+              <MarqueeItem>
+                <Image
+                  src="/cheeseburger.jpg"
+                  alt="cheeseburger"
+                  width={1024}
+                  height={1024}
+                  className="opacity-70 rounded-md"
+                  priority
                 />
               </MarqueeItem>
             </MarqueeContent>
@@ -148,6 +169,48 @@ export default function Home() {
         </div>
       </section>
 
+      <section
+        className="mx-auto w-full max-w-7xl px-4 pb-20 sm:px-6 lg:px-8"
+        id="markalarimiz"
+      >
+        <div className="mx-auto mb-8 max-w-3xl text-center">
+          <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
+            Markalarımız
+          </h2>
+          <p className="mt-3 text-muted-foreground">Markalarımızı keşfedin.</p>
+        </div>
+        <Marquee className="w-full">
+          <MarqueeFade side="left" />
+          <MarqueeContent>
+            <MarqueeItem>
+              <Image
+                src="/markalar-burgerparklogo.png"
+                alt="Burgerpark"
+                width={100}
+                height={100}
+              />
+            </MarqueeItem>
+            <MarqueeItem>
+              <Image
+                src="/markalar-burgerpub.png"
+                alt="Burgerpub"
+                width={100}
+                height={100}
+              />
+            </MarqueeItem>
+            <MarqueeItem>
+              <Image
+                src="/markalar-parkchicken.png"
+                alt="Parkchicken"
+                width={100}
+                height={100}
+              />
+            </MarqueeItem>
+          </MarqueeContent>
+          <MarqueeFade side="right" />
+        </Marquee>
+      </section>
+
       {/* Branches Section */}
       <section
         id="branches"
@@ -169,18 +232,6 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {branches.map((b) => (
             <Card key={b.id} className="overflow-hidden">
-              <div className="relative aspect-[16/9] w-full bg-gradient-to-br from-primary/10 to-secondary">
-                {/* Placeholder visual; replace with real branch photo at /public/branch-{id}.jpg */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <Image
-                    src="/window.svg"
-                    alt="Branch placeholder"
-                    width={64}
-                    height={64}
-                    className="opacity-50"
-                  />
-                </div>
-              </div>
               <CardHeader>
                 <CardTitle className="text-xl">{b.name}</CardTitle>
                 <CardDescription>{b.address}</CardDescription>
@@ -199,47 +250,6 @@ export default function Home() {
             </Card>
           ))}
         </div>
-      </section>
-      <section className="mx-auto w-full max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
-        <div className="mx-auto mb-8 max-w-3xl text-center">
-          <h2 className="font-heading text-3xl font-semibold tracking-tight sm:text-4xl">
-            Markalarımız
-          </h2>
-          <p className="mt-3 text-muted-foreground">Markalarımızı keşfedin.</p>
-        </div>
-        <Marquee className="w-full">
-          <MarqueeFade side="left" />
-          <MarqueeContent>
-            <MarqueeItem>
-              <Image
-                src="/window.svg"
-                alt="Branch placeholder"
-                width={64}
-                height={64}
-                className="opacity-50"
-              />
-            </MarqueeItem>
-            <MarqueeItem>
-              <Image
-                src="/globe.svg"
-                alt="Branch placeholder"
-                width={64}
-                height={64}
-                className="opacity-50"
-              />
-            </MarqueeItem>
-            <MarqueeItem>
-              <Image
-                src="/window.svg"
-                alt="Branch placeholder"
-                width={64}
-                height={64}
-                className="opacity-50"
-              />
-            </MarqueeItem>
-          </MarqueeContent>
-          <MarqueeFade side="right" />
-        </Marquee>
       </section>
     </div>
   );

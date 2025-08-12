@@ -115,6 +115,10 @@
   --sidebar-ring: #1E7D66;
 }
 
+#markalarimiz {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

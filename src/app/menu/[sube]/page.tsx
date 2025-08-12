@@ -58,9 +58,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { sube: string }
+  params: Promise<{ sube: string }>
 }): Promise<Metadata> {
-  const menu = await getMenuData(params.sube)
+  const { sube } = await params
+  const menu = await getMenuData(sube)
   if (!menu) return {}
   return {
     title: `${menu.branchName} Menü | Burgerpark`,
@@ -77,9 +78,10 @@ async function getMenuData(sube: string): Promise<BranchMenu | null> {
 export default async function BranchMenuPage({
   params,
 }: {
-  params: { sube: string }
+  params: Promise<{ sube: string }>
 }) {
-  const menu = await getMenuData(params.sube)
+  const { sube } = await params
+  const menu = await getMenuData(sube)
   if (!menu) notFound()
 
   const firstCategory = menu.categories[0]?.id ?? ""
@@ -94,7 +96,7 @@ export default async function BranchMenuPage({
       </header>
 
       <Tabs defaultValue={firstCategory} className="w-full">
-        <TabsList aria-label="Menü kategorileri">
+        <TabsList aria-label="Menü kategorileri" className="border-2 shadow-md rounded-md">
           {menu.categories.map((category) => (
             <TabsTrigger key={category.id} value={category.id}>
               {category.title}

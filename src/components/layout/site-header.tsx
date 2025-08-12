@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { MenuIcon, ChevronDown } from "lucide-react";
 import {
@@ -21,13 +22,14 @@ import {
 type NavItem = {
   label: string;
   href: string;
+  onClick?: () => void;
 };
 
 const navItems: NavItem[] = [
   { label: "Ana Sayfa", href: "/" },
-  { label: "Hakkımızda", href: "/hakkimizda" },
   { label: "Şubeler", href: "/subeler" },
-  { label: "Galeri", href: "/galeri" },
+  { label: "Markalarımız", href: "/#markalarimiz" },
+  { label: "Hakkımızda", href: "/hakkimizda" },
   { label: "İletişim", href: "/iletisim" },
 ];
 
@@ -52,8 +54,18 @@ export const SiteHeader = () => {
 
   const [isSheetOpen, setIsSheetOpen] = React.useState(false);
 
+  const handleClickBrands: React.MouseEventHandler<HTMLAnchorElement> = (
+    event
+  ) => {
+    if (pathname !== "/") return;
+    event.preventDefault();
+    const el = document.getElementById("markalarimiz");
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-primary font-heading shadow-sm">
+    <header className="sticky top-0 z-40 w-full border-b bg-primary font-semibold shadow-sm">
       <div
         className={
           "mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
@@ -62,10 +74,10 @@ export const SiteHeader = () => {
         {/* Logo */}
         <Link
           href="/"
-          className="font-heading text-xl font-bold tracking-wide text-primary-foreground hover:text-accent rounded-xs"
+          className="flex items-center gap-2 font-semibold text-base tracking-wide text-primary-foreground hover:text-accent rounded-xs"
           aria-label="Burgerpark anasayfa"
         >
-          BURGERPARK
+          <Image src="/Burger-Park-White.png" alt="Burgerpark" width={70} height={70} />
         </Link>
 
         {/* Desktop Nav */}
@@ -81,6 +93,7 @@ export const SiteHeader = () => {
               aria-current={pathname === item.href ? "page" : undefined}
               tabIndex={0}
               onKeyDown={handleKeyDown}
+              onClick={item.onClick}
             >
               {item.label}
             </Link>
@@ -103,7 +116,7 @@ export const SiteHeader = () => {
                 <DropdownMenuItem
                   key={item.href}
                   asChild
-                  className="font-heading"
+                  className="font-medium text-sm"
                 >
                   <Link
                     href={item.href}
@@ -126,6 +139,7 @@ export const SiteHeader = () => {
               aria-current={pathname === item.href ? "page" : undefined}
               tabIndex={0}
               onKeyDown={handleKeyDown}
+              onClick={item.href.endsWith("#markalarimiz") ? handleClickBrands : undefined}
             >
               {item.label}
             </Link>
@@ -146,8 +160,8 @@ export const SiteHeader = () => {
             </SheetTrigger>
             <SheetContent side="right" className="gap-0 p-0 bg-background/80 backdrop-blur-sm">
               <SheetHeader className="p-4">
-                <SheetTitle className="font-heading text-lg">
-                  Burgerpark
+                <SheetTitle className="font-semibold text-lg">
+                <Image src="/burgerpark-logo.png" alt="Burgerpark" width={50} height={50} />
                 </SheetTitle>
               </SheetHeader>
               <nav className="flex flex-col" aria-label="Mobil navigasyon" onClick={() => setIsSheetOpen(false)}>
@@ -156,6 +170,7 @@ export const SiteHeader = () => {
                     key={item.href}
                     href={item.href}
                     className="px-4 py-3 text-base hover:bg-muted focus:bg-muted focus:outline-none"
+                    onClick={item.href.endsWith("#markalarimiz") ? handleClickBrands : undefined}
                   >
                     {item.label}
                   </Link>

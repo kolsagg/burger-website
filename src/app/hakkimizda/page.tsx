@@ -50,10 +50,10 @@ export default function AboutPage() {
         <div className="grid gap-8 p-10 sm:grid-cols-2 sm:items-center">
           <div>
             <h1 className="font-heading text-3xl font-bold tracking-tight sm:text-4xl">
-              Burgerpark Hakkında
+              Hakkımızda
             </h1>
             <p className="mt-3 text-muted-foreground">
-              Gurme burger tutkumuzu; taze malzeme, usta dokunuş ve
+              Burger tutkumuzu; taze malzeme, usta dokunuş ve
               misafirperverlikle birleştiriyoruz.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
@@ -90,7 +90,7 @@ export default function AboutPage() {
           <div className="relative">
             <div className="relative aspect-[4/3] w-full">
               <Image
-                src="/window.svg"
+                src="/cropped-Burger-Park.png"
                 alt="Burgerpark"
                 fill
                 className="object-contain opacity-80"
