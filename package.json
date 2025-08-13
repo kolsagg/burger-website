@@ -6,6 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "preview:static": "npx serve@14 -s out -l 5000",
     "lint": "next lint"
   },
   "dependencies": {
