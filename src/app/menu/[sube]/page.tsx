@@ -26,9 +26,9 @@ import {
 type MenuItem = {
   id: string
   name: string
-  description: string
+  description?: string
   price: number
-  image: string
+  image?: string
 }
 
 type MenuCategory = {
@@ -61,7 +61,7 @@ export async function generateMetadata({
   params: Promise<{ sube: string }>
 }): Promise<Metadata> {
   const { sube } = await params
-  const menu = await getMenuData(sube)
+  const menu = getMenuData(sube)
   if (!menu) return {}
   return {
     title: `${menu.branchName} Menü | Burgerpark`,
@@ -69,7 +69,7 @@ export async function generateMetadata({
   }
 }
 
-async function getMenuData(sube: string): Promise<BranchMenu | null> {
+function getMenuData(sube: string): BranchMenu | null {
   const data = BRANCH_TO_MENU_MAP[sube]
   if (!data) return null
   return data
@@ -81,7 +81,7 @@ export default async function BranchMenuPage({
   params: Promise<{ sube: string }>
 }) {
   const { sube } = await params
-  const menu = await getMenuData(sube)
+  const menu = getMenuData(sube)
   if (!menu) notFound()
 
   const firstCategory = menu.categories[0]?.id ?? ""
@@ -96,7 +96,7 @@ export default async function BranchMenuPage({
       </header>
 
       <Tabs defaultValue={firstCategory} className="w-full">
-        <TabsList aria-label="Menü kategorileri" className="border-2 shadow-md rounded-md">
+        <TabsList aria-label="Menü kategorileri" className="border-2 shadow-md rounded-md sticky top-18 z-30 md:static">
           {menu.categories.map((category) => (
             <TabsTrigger key={category.id} value={category.id}>
               {category.title}
@@ -107,7 +107,7 @@ export default async function BranchMenuPage({
         {menu.categories.map((category) => (
           <TabsContent key={category.id} value={category.id}>
             <section
-              className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+              className="mt-3 grid grid-cols-1 gap-3 sm:mt-6 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3"
               aria-label={`${category.title} ürünleri`}
             >
               {category.items.map((item) => (
@@ -118,9 +118,9 @@ export default async function BranchMenuPage({
                         className="text-left outline-none focus-visible:ring-2 focus-visible:ring-ring block w-full"
                         aria-label={`${item.name} detaylarını aç`}
                       >
-                        <div className="relative aspect-[4/3] w-full bg-gradient-to-br from-muted to-secondary">
+                        <div className="relative w-full aspect-[3/2] sm:aspect-[4/3] bg-gradient-to-br from-muted to-secondary rounded-md">
                           <Image
-                            src={item.image}
+                            src={item.image || "/burgerpark-logo.png"}
                             alt={item.name}
                             fill
                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -128,11 +128,11 @@ export default async function BranchMenuPage({
                           />
                         </div>
                         <CardHeader>
-                          <CardTitle className="text-lg">{item.name}</CardTitle>
-                          <CardDescription>{item.description}</CardDescription>
+                          <CardTitle className="text-sm sm:text-lg">{item.name}</CardTitle>
+                          <CardDescription className="text-xs sm:text-sm">{item.description ?? ""}</CardDescription>
                         </CardHeader>
                         <CardContent>
-                          <div className="text-base font-semibold">{item.price} TL</div>
+                          <div className="text-sm font-semibold sm:text-base">₺{item.price}</div>
                         </CardContent>
                       </button>
                     </DialogTrigger>
@@ -142,12 +142,12 @@ export default async function BranchMenuPage({
                     <DialogHeader>
                       <DialogTitle>{item.name}</DialogTitle>
                       <DialogDescription id={`${item.id}-desc`}>
-                        {item.description}
+                        {item.description ?? ""}
                       </DialogDescription>
                     </DialogHeader>
                     <div className="relative mt-2 aspect-[4/3] w-full">
                       <Image
-                        src={item.image}
+                        src={item.image || "/burgerpark-logo.png"}
                         alt={item.name}
                         fill
                         sizes="90vw"
@@ -155,7 +155,7 @@ export default async function BranchMenuPage({
                       />
                     </div>
                     <div className="mt-4 text-right text-lg font-semibold">
-                      {item.price} TL
+                      ₺{item.price}
                     </div>
                   </DialogContent>
                 </Dialog>

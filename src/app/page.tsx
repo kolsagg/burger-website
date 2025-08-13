@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -81,26 +82,29 @@ export default function Home() {
                   width={1625}
                   height={1024}
                   className="opacity-70 rounded-md"
+                  sizes="100vw"
                   priority
                 />
               </MarqueeItem>
               <MarqueeItem>
                 <Image
-                  src="/burgerpark-hotdog.jpg"
+                  src="/hotdog/burgerpark-hotdog.jpg"
                   alt="burger park hotdog"
                   width={1024}
                   height={1024}
                   className="opacity-70 rounded-md"
+                  sizes="(max-width: 640px) 90vw, (max-width: 1024px) 60vw, 50vw"
                   priority
                 />
               </MarqueeItem>
               <MarqueeItem>
                 <Image
-                  src="/cheeseburger.jpg"
+                  src="/hamburger/cheeseburger.jpg"
                   alt="cheeseburger"
                   width={1024}
                   height={1024}
                   className="opacity-70 rounded-md"
+                  sizes="(max-width: 640px) 90vw, (max-width: 1024px) 60vw, 50vw"
                   priority
                 />
               </MarqueeItem>
@@ -254,3 +258,8 @@ export default function Home() {
     </div>
   );
 }
+
+export const metadata: Metadata = {
+  title: "Burgerpark | Gurme Burger Deneyimi",
+  description: "Burgerpark: Gurme burgerler, hotdoglar ve imza soslarla iki yakada aynı lezzet. Şubeleri ve menüleri keşfedin.",
+};

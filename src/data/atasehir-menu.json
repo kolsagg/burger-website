@@ -7,18 +7,88 @@
       "title": "Atıştırmalıklar",
       "items": [
         {
-          "id": "truffle-fries",
-          "name": "Trüflü Patates",
-          "description": "Trüf yağlı çıtır patates, parmesan, maydanoz",
-          "price": 110,
-          "image": "/window.svg"
+          "id": "kaburga-toplari-mozzarella-cheddar",
+          "name": "Kaburga Topları Mozzarellalı ve Cheddarlı",
+          "description": "5 Adet Cheddarlı Dana Kaburga Topu ve Patates Kızartması ile Servis Edilir",
+          "price": 475,
+          "image": ""
         },
         {
-          "id": "cheese-sticks",
+          "id": "truflu-parmesanli-french-fries",
+          "name": "Trüflü Parmesanlı French Fries",
+          "description": "Kızarmış Patates, Siyah Trüf Yağı ve Parmesan Peyniri ile Servis Edilir",
+          "price": 425,
+          "image": ""
+        },
+        {
+          "id": "cheddarlı-fume-etli-patates",
+          "name": "Cheddarlı Füme Etli Patates Kızartması",
+          "description": "Patates Kızartması, Doğranmış Füme Etleri ve Cheddar Sos ile Servis Edilir",
+          "price": 495,
+          "image": ""
+        },
+        {
+          "id": "cheddarlı-kaburga-etli-patates",
+          "name": "Cheddarlı Kaburga Etli Patates Kızartması",
+          "description": "Patates Kızartması, Fırınlanmış Kaburga Eti ve Cheddar Sos ile Servis Edilir",
+          "price": 495,
+          "image": ""
+        },
+        {
+          "id": "mozzarella-sticks",
           "name": "Mozzarella Sticks",
-          "description": "Çıtır pane mozzarella, marinara sos",
-          "price": 130,
-          "image": "/window.svg"
+          "description": "5 adet Mozzarella Stick, Patates Kızartması ile Birlikte Servis Edilir",
+          "price": 449,
+          "image": ""
+        },
+        {
+          "id": "park-chickhen",
+          "name": "Park Chickhen",
+          "description": "Kızartılmış Çıtır Tavuk Küpleri, Özel Sriracha Sos, Susam ve Patates Kızartması ile Servis Edilir",
+          "price": 449,
+          "image": ""
+        },
+        {
+          "id": "kaburgali-mozzarellali-citir-muska",
+          "name": "Kaburgalı Mozzarellalı Çıtır Muska Böreği",
+          "description": "5 Adet Kaburga Etli Cheddarlı Muska Böreği, Patates Kızartması ile Birlikte Servis Edilir",
+          "price": 475,
+          "image": ""
+        },
+        {
+          "id": "beer-combo-tabagi",
+          "name": "Beer Combo Tabağı",
+          "description": "2 Adet Cheddarlı Mozzarellalı Dana Kaburga Topu, 2 Adet Mozzarella Stick, 2 Adet Kaburgalı Mozzarellalı Muska Böreği, 2 Adet Chickhen Tenders, Patates Kızartması ve Özel Soslar ile Servis Edilir",
+          "price": 695,
+          "image": ""
+        },
+        {
+          "id": "hardalli-izgara-sosis",
+          "name": "Hardallı Izgara Sosis",
+          "description": "Izgarada 22 cm frankfurter sosis üzeri hardal sos ve patates kızartması eşliğinde servis edilir",
+          "price": 475,
+          "image": ""
+        },
+        {
+          "id": "chickhen-tenders",
+          "name": "Chickhen Tenders",
+          "description": "4 adet Chickhen Tenders, Patates Kızartması ile Servis Edilir",
+          "price": 449,
+          "image": ""
+        },
+        {
+          "id": "patates-kizartmasi",
+          "name": "Patates Kızartması",
+          "description": "",
+          "price": 250,
+          "image": ""
+        },
+        {
+          "id": "cheddarlı-patates-kizartmasi",
+          "name": "Cheddarlı Patates Kızartması",
+          "description": "",
+          "price": 325,
+          "image": ""
         }
       ]
     },
@@ -27,25 +97,95 @@
       "title": "Burgerler",
       "items": [
         {
-          "id": "classic-burger",
-          "name": "Classic Burger",
-          "description": "150g dana burger, cheddar, turşu, domates, marul, özel sos",
-          "price": 210,
-          "image": "/window.svg"
+          "id": "burger-park-klasik",
+          "name": "Burger Park Klasik",
+          "description": "120g Burger Köftesi, Mor Soğan Halkası, Turşu, Domates, BP Sos ve Patates Kızartması ile Servis Edilir",
+          "price": 506,
+          "image": ""
         },
         {
-          "id": "bbq-burger",
-          "name": "BBQ Burger",
-          "description": "150g dana burger, cheddar, karamelize soğan, BBQ sos",
-          "price": 235,
-          "image": "/window.svg"
+          "id": "truf-burger",
+          "name": "Trüf Burger",
+          "description": "120g Burger Köftesi, Karamelize Soğan, Cheddar Peyniri, Trüf Sos ve Patates Kızartması ile Servis Edilir",
+          "price": 545,
+          "image": ""
         },
         {
-          "id": "mushroom-swiss",
-          "name": "Mushroom Swiss",
-          "description": "150g dana burger, İsviçre peyniri, sote mantar, trüf mayo",
-          "price": 255,
-          "image": "/window.svg"
+          "id": "barbeku-amerikan-burger",
+          "name": "Barbekü Amerikan Burger",
+          "description": "120g Burger Köftesi, Füme Antrikot, Karamelize Soğan, Barbekü Sos, Cheddar Peyniri ve Patates Kızartması Meşe Talaşı ile Tütsülenerek Servis Edilir",
+          "price": 575,
+          "image": ""
+        },
+        {
+          "id": "xl-barbeku-amerikan-burger",
+          "name": "XL Barbekü Amerikan Burger",
+          "description": "240g Burger Köftesi, 2 Adet Füme Antrikot, Karamelize Soğan, Barbekü Sos, Cheddar Peyniri ve Duble Patates Kızartması ile Servis Edilir",
+          "price": 659,
+          "image": ""
+        },
+        {
+          "id": "cheese-burger",
+          "name": "Cheese Burger",
+          "description": "120g Burger Köftesi, Karamelize Soğan, BP Sos, Turşu, Cheddar Peyniri ve Patates Kızartması ile Servis Edilir",
+          "price": 535,
+          "image": ""
+        },
+        {
+          "id": "smoke-kaburga-burger",
+          "name": "Smoke Kaburga Burger",
+          "description": "Ağır Ateşte Pişmiş Kaburga Eti, Karamelize Soğan, Cheddar Peyniri, BP Sos ve Patates Kızartması Meşe Talaşı ile Tütsülenerek Servis Edilir",
+          "price": 585,
+          "image": ""
+        },
+        {
+          "id": "chicken-burger",
+          "name": "Chicken Burger",
+          "description": "Burger Ekmeği Arasında Chicken Royal Tenders, BP Sos, Domates, Salatalık Turşusu, Patates Kızartması ile Servis Edilir",
+          "price": 506,
+          "image": ""
+        },
+        {
+          "id": "big-burger-kutusu",
+          "name": "Big Burger Kutusu",
+          "description": "Özel Baskılı Kutusunda 1 Adet Klasik Burger, 1 Adet Burger Park Hot Dog, 4 Adet Chicken Tenders, 5 Adet Kaburga Topu ve Patates Kızartması ile Servis Edilir",
+          "price": 1499,
+          "image": ""
+        },
+        {
+          "id": "ekstra-fume-eti",
+          "name": "Ekstra Füme Eti",
+          "description": "",
+          "price": 150,
+          "image": ""
+        },
+        {
+          "id": "ekstra-cheddar-peyniri",
+          "name": "Ekstra Cheddar Peyniri",
+          "description": "",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "id": "ekstra-kofte",
+          "name": "Ekstra Köfte",
+          "description": "120g Burger Köftesi",
+          "price": 199,
+          "image": ""
+        },
+        {
+          "id": "ekstra-truf-parmesan",
+          "name": "Ekstra Trüf&Parmesan",
+          "description": "",
+          "price": 149,
+          "image": ""
+        },
+        {
+          "id": "ozel-soslarimiz",
+          "name": "Özel Soslarımız (Tekli)",
+          "description": "Trüf Sos, Burger Park Sos, Park Chicken",
+          "price": 79,
+          "image": ""
         }
       ]
     },
@@ -54,11 +194,32 @@
       "title": "Hot Dog",
       "items": [
         {
-          "id": "classic-hot-dog",
-          "name": "Classic Hot Dog",
-          "description": "150g dana burger, cheddar, turşu, domates, marul, özel sos",
-          "price": 210,
-          "image": "/window.svg"
+          "id": "klasik-hotdog",
+          "name": "Klasik Hotdog",
+          "description": "22cm Hotdog Sosis, Hardal, Turşu ve Patates Kızartması ile Servis Edilir",
+          "price": 550,
+          "image": ""
+        },
+        {
+          "id": "burger-park-hotdog",
+          "name": "Burger Park Hotdog",
+          "description": "22cm Hotdog Sosis, Turşu, Füme Antrikot, Barbekü Sos, BP Sos, Çıtır Soğan ve Patates Kızartması ile Servis Edilir",
+          "price": 580,
+          "image": ""
+        },
+        {
+          "id": "cheddarlı-hotdog",
+          "name": "Cheddarlı Hotdog",
+          "description": "22cm Hotdog Sosis, Turşu, Füme Antrikot, BP Sos, Cheddar Peyniri, Çıtır Soğan ve Patates Kızartması ile Servis Edilir",
+          "price": 580,
+          "image": ""
+        },
+        {
+          "id": "kaburgali-hotdog",
+          "name": "Kaburgalı Hotdog",
+          "description": "22cm Hotdog Sosis, Ağır Ateşte Pişmiş Kaburga Eti, Turşu, Barbekü Sos, BP Sos, Çıtır Soğan ve Patates Kızartması ile Servis Edilir",
+          "price": 595,
+          "image": ""
         }
       ]
     },
@@ -67,18 +228,144 @@
       "title": "Kokteyl",
       "items": [
         {
-          "id": "cocktail-1",
-          "name": "Cocktail 1",
-          "description": "Taze limon suyu, şeker şurubu, nane",
-          "price": 75,
-          "image": "/window.svg"
+          "id": "no-10",
+          "name": "No: 10",
+          "description": "Gin, Portakal Likörü, Limon Suyu, Kuzu Kulak, Sweet Sour Mix",
+          "price": 450,
+          "image": ""
         },
         {
-          "id": "cocktail-2",
-          "name": "Cocktail 2",
-          "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "id": "no-20",
+          "name": "No: 20",
+          "description": "Gin, Mürver Likörü, Zencefil, Salatalık, Fesleğen, Limon Suyu, Sweet Sour Mix",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "no-30",
+          "name": "No: 30",
+          "description": "Vodka, Kahlua, Espresso",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "no-40",
+          "name": "No: 40",
+          "description": "Tekila Gold, Aperol, Limon Suyu, Acı Biber, Passion Püresi",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "cosmopolitian",
+          "name": "Cosmopolitian",
+          "description": "Vodka, Portakal Likörü, Yaban Mersini Suyu, Limon Suyu",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "apple-martini",
+          "name": "Apple Martini",
+          "description": "Vodka, Şeftali Likörü, Yeşil Elma Suyu",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "sex-on-the-beach",
+          "name": "Sex on the Beach",
+          "description": "Tekila, Vodka, Şeftali Likörü, Portakal Suyu, Nar Şurubu",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "negroni",
+          "name": "Negroni",
+          "description": "Gin, Campari Vermut, Martini Rosso Vermut",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "white-lady",
+          "name": "White Lady",
+          "description": "Gin, Portakal Likörü, Limon Suyu",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "daiguri",
+          "name": "Daiguri",
+          "description": "Rom, Lime Suyu, Şeker Şurubu",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "mojito",
+          "name": "Mojito",
+          "description": "Rom, Lime Suyu, Şeker Şurubu, Nane, Soda",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "cuba-libre",
+          "name": "Cuba Libre",
+          "description": "Rom, Limon Suyu, Cola",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "margarita",
+          "name": "Margarita",
+          "description": "Tekila, Portakal Likörü, Limon Suyu",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "tekila-sunrise",
+          "name": "Tekila Sunrise",
+          "description": "Tekila, Portakal Suyu, Nar Şurubu",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "lyncburg-lemonade",
+          "name": "Lyncburg Lemonade",
+          "description": "Jack Daniels, Portakal Likörü, Sweet Sour Mix, Sprite",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "whiskey-sour",
+          "name": "Whiskey Sour",
+          "description": "Viski, Limon Suyu, Şeker Şurubu, Yumurta Akı",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "creanbery-jack-cocktail",
+          "name": "Creanbery Jack Cocktail",
+          "description": "Jack Daniels, Sweet Sour Mix, Yaban Mersini Suyu, Sprite",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "jameson-viski-kokteyl",
+          "name": "Jameson Viski Kokteyl",
+          "description": "Jameson Viski, Safari Likör, Limon Suyu, Ananas Suyu",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "black-russian",
+          "name": "Black Russian",
+          "description": "Vodka, Kahve Likörü",
+          "price": 450,
+          "image": ""
+        },
+        {
+          "id": "long-island",
+          "name": "Long Island",
+          "description": "Vodka, Rom, Tekila, Gin, Portakal Likörü, Limon Suyu, Cola",
+          "price": 590,
+          "image": ""
         }
       ]
     },
@@ -87,11 +374,46 @@
       "title": "Fıçı Bira",
       "items": [
         {
-          "id": "draft-beer-1",
-          "name": "Draft Beer 1",
+          "id": "tuborg-gold-fici-bira-50cl",
+          "name": "Tuborg Gold Fıçı Bira",
+          "description": "50cl",
+          "price": 235,
+          "image": ""
+        },
+        {
+          "id": "tuborg-gold-fici-bira-33cl",
+          "name": "Tuborg Gold Fıçı Bira",
           "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "price": 215,
+          "image": ""
+        },
+        {
+          "id": "carslberg-fici-bira-50-cl",
+          "name": "Carslberg Fıçı Bira",
+          "description": "50cl",
+          "price": 235,
+          "image": ""
+        },
+        {
+          "id": "carslberg-33-cl",
+          "name": "Carslberg Fıçı Bira",
+          "description": "33cl",
+          "price": 215,
+          "image": ""
+        },
+        {
+          "id": "guinnes-fici-bira-50-cl",
+          "name": "Guinnes Fıçı Bira",
+          "description": "50cl",
+          "price": 390,
+          "image": ""
+        },
+        {
+          "id": "guinnes-fici-bira-25-cl",
+          "name": "Guinnes Fıçı Bira",
+          "description": "25cl",
+          "price": 299,
+          "image": ""
         }
       ]
     },
@@ -100,11 +422,109 @@
       "title": "Bira",
       "items": [
         {
-          "id": "beer-1",
-          "name": "Beer 1",
+          "id": "tuborg-gold-50cl",
+          "name": "Tuborg Gold",
+          "description": "50cl",
+          "price": 240,
+          "image": ""
+        },
+        {
+          "id": "tuborg-filtresiz-50cl",
+          "name": "Tuborg Filtresiz",
+          "description": "50cl",
+          "price": 265,
+          "image": ""
+        },
+        {
+          "id": "tuborg-amber-50cl",
+          "name": "Tuborg Amber",
+          "description": "50cl",
+          "price": 265,
+          "image": ""
+        },
+        {
+          "id": "carlsberg-50cl",
+          "name": "Carlsberg",
+          "description": "50cl",
+          "price": 240,
+          "image": ""
+        },
+        {
+          "id": "carlsberg-luna-50cl",
+          "name": "Carlsberg Luna",
+          "description": "50cl",
+          "price": 265,
+          "image": ""
+        },
+        {
+          "id": "weihenstephan-33cl",
+          "name": "Weihenstephan",
           "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "price": 275,
+          "image": ""
+        },
+        {
+          "id": "weihenstephan-vitus-33cl",
+          "name": "Weihenstephan Vitus",
+          "description": "33cl",
+          "price": 290,
+          "image": ""
+        },
+        {
+          "id": "desperados-33cl",
+          "name": "Desperados",
+          "description": "33cl",
+          "price": 300,
+          "image": ""
+        },
+        {
+          "id": "sol-33cl",
+          "name": "Sol",
+          "description": "33cl",
+          "price": 280,
+          "image": ""
+        },
+        {
+          "id": "blanc-1664-33cl",
+          "name": "Blanc 1664",
+          "description": "33cl",
+          "price": 265,
+          "image": ""
+        },
+        {
+          "id": "efes-glutensiz-50cl",
+          "name": "Efes Glutensiz",
+          "description": "50cl",
+          "price": 340,
+          "image": ""
+        },
+        {
+          "id": "heineken-33cl",
+          "name": "Heineken",
+          "description": "33cl",
+          "price": 290,
+          "image": ""
+        },
+        {
+          "id": "frederik-ind-35cl",
+          "name": "Frederik Ind",
+          "description": "35cl",
+          "price": 275,
+          "image": ""
+        },
+        {
+          "id": "frederik-yakima-ipa-35cl",
+          "name": "Frederik Yakima Ipa",
+          "description": "35cl",
+          "price": 275,
+          "image": ""
+        },
+        {
+          "id": "frederik-wheat-ipa-35cl",
+          "name": "Frederik Wheat Ipa",
+          "description": "35cl",
+          "price": 275,
+          "image": ""
         }
       ]
     },
@@ -113,11 +533,32 @@
       "title": "Gin",
       "items": [
         {
-          "id": "gin-1",
-          "name": "Gin 1",
-          "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "id": "bombays-sapphire",
+          "name": "Bombays Sapphire",
+          "description": "Tek",
+          "price": 350,
+          "image": ""
+        },
+        {
+          "id": "gordons-london-dry",
+          "name": "Gordon's London Dry",
+          "description": "Tek",
+          "price": 310,
+          "image": ""
+        },
+        {
+          "id": "gordons-premium-pink",
+          "name": "Gordons Premium Pink",
+          "description": "Tek",
+          "price": 315,
+          "image": ""
+        },
+        {
+          "id": "tanqueray",
+          "name": "Tanqueray",
+          "description": "Tek",
+          "price": 350,
+          "image": ""
         }
       ]
     },
@@ -126,11 +567,25 @@
       "title": "Vodka",
       "items": [
         {
-          "id": "vodka-1",
-          "name": "Vodka 1",
-          "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "id": "smirnoff",
+          "name": "Smirnoff",
+          "description": "Tek",
+          "price": 310,
+          "image": ""
+        },
+        {
+          "id": "absolut",
+          "name": "Absolut",
+          "description": "Tek",
+          "price": 325,
+          "image": ""
+        },
+        {
+          "id": "ketel-one",
+          "name": "Ketel One",
+          "description": "Tek",
+          "price": 340,
+          "image": ""
         }
       ]
     },
@@ -139,11 +594,144 @@
       "title": "Viski",
       "items": [
         {
-          "id": "whisky-1",
-          "name": "Whisky 1",
-          "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "id": "chivas-regal-12y",
+          "name": "Chivas Regal 12y",
+          "description": "Tek",
+          "price": 365,
+          "image": ""
+        },
+        {
+          "id": "chivas-regal-18y",
+          "name": "Chivas Regal 18y",
+          "description": "Tek",
+          "price": 540,
+          "image": ""
+        },
+        {
+          "id": "chivas-regal-21y",
+          "name": "Chivas Regal 21y",
+          "description": "Tek",
+          "price": 1390,
+          "image": ""
+        },
+        {
+          "id": "chivas-regal-extra",
+          "name": "Chivas Regal Extra",
+          "description": "Tek",
+          "price": 365,
+          "image": ""
+        },
+        {
+          "id": "johnnie-walker-black-label",
+          "name": "Johnnie Walker Black Label",
+          "description": "Tek",
+          "price": 375,
+          "image": ""
+        },
+        {
+          "id": "johnnie-walker-red-label",
+          "name": "Johnnie Walker Red Label",
+          "description": "Tek",
+          "price": 310,
+          "image": ""
+        },
+        {
+          "id": "johnnie-walker-double-black",
+          "name": "Johnnie Walker Double Black",
+          "description": "Tek",
+          "price": 415,
+          "image": ""
+        },
+        {
+          "id": "dimple-gold-selection",
+          "name": "Dimple Gold Selection",
+          "description": "Tek",
+          "price": 350,
+          "image": ""
+        },
+        {
+          "id": "the-macallan-12",
+          "name": "The Macallan 12",
+          "description": "Tek",
+          "price": 1090,
+          "image": ""
+        },
+        {
+          "id": "aberlour",
+          "name": "Aberlour",
+          "description": "Tek",
+          "price": 490,
+          "image": ""
+        },
+        {
+          "id": "ballantines",
+          "name": "Ballantines",
+          "description": "Tek",
+          "price": 315,
+          "image": ""
+        },
+        {
+          "id": "ballantines-12y",
+          "name": "Ballantines 12y",
+          "description": "Tek",
+          "price": 320,
+          "image": ""
+        },
+        {
+          "id": "jack-daniels",
+          "name": "Jack Daniels",
+          "description": "Tek",
+          "price": 315,
+          "image": ""
+        },
+        {
+          "id": "jameson",
+          "name": "Jameson",
+          "description": "Tek",
+          "price": 315,
+          "image": ""
+        },
+        {
+          "id": "jameson-stout",
+          "name": "Jameson Stout",
+          "description": "Tek",
+          "price": 325,
+          "image": ""
+        },
+        {
+          "id": "lagavulin-16-years",
+          "name": "Lagavulin 16 Years",
+          "description": "Tek",
+          "price": 1390,
+          "image": ""
+        },
+        {
+          "id": "talisker-10-years",
+          "name": "Talisker 10 Years",
+          "description": "Tek",
+          "price": 640,
+          "image": ""
+        },
+        {
+          "id": "cardhu-12-years",
+          "name": "Cardhu 12 Years",
+          "description": "Tek",
+          "price": 490,
+          "image": ""
+        },
+        {
+          "id": "bulleit-bourbon",
+          "name": "Bulleit Bourbon",
+          "description": "Tek",
+          "price": 490,
+          "image": ""
+        },
+        {
+          "id": "glenkinchie-12y",
+          "name": "Glenkinchie 12y",
+          "description": "Tek",
+          "price": 440,
+          "image": ""
         }
       ]
     },
@@ -152,11 +740,39 @@
       "title": "Rom",
       "items": [
         {
-          "id": "rum-1",
-          "name": "Rum 1",
-          "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "id": "captain-morgan",
+          "name": "Captain Morgan",
+          "description": "Tek",
+          "price": 310,
+          "image": ""
+        },
+        {
+          "id": "bacardi",
+          "name": "Bacardi",
+          "description": "Tek",
+          "price": 315,
+          "image": ""
+        },
+        {
+          "id": "bacardi-oro",
+          "name": "Bacardi Oro",
+          "description": "Tek",
+          "price": 350,
+          "image": ""
+        },
+        {
+          "id": "havana-club-3a",
+          "name": "Havana Club 3a",
+          "description": "Tek",
+          "price": 315,
+          "image": ""
+        },
+        {
+          "id": "zacapa-rom",
+          "name": "Zacapa Rom",
+          "description": "Tek",
+          "price": 365,
+          "image": ""
         }
       ]
     },
@@ -165,11 +781,46 @@
       "title": "Şarap",
       "items": [
         {
-          "id": "wine-1",
-          "name": "Wine 1",
-          "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "id": "kirmizi-sarap-kadeh",
+          "name": "Kırmızı Şarap (Kadeh)",
+          "description": "",
+          "price": 425,
+          "image": ""
+        },
+        {
+          "id": "kirmizi-sarap-sise",
+          "name": "Kırmızı Şarap (Şişe)",
+          "description": "",
+          "price": 1600,
+          "image": ""
+        },
+        {
+          "id": "beyaz-sarap-kadeh",
+          "name": "Beyaz Şarap (Kadeh)",
+          "description": "",
+          "price": 425,
+          "image": ""
+        },
+        {
+          "id": "beyaz-sarap-sise",
+          "name": "Beyaz Şarap (Şişe)",
+          "description": "",
+          "price": 1600,
+          "image": ""
+        },
+        {
+          "id": "blush-sarap-kadeh",
+          "name": "Blush Şarap (Kadeh)",
+          "description": "",
+          "price": 425,
+          "image": ""
+        },
+        {
+          "id": "blush-sarap-sise",
+          "name": "Blush Şarap (Şişe)",
+          "description": "",
+          "price": 1600,
+          "image": ""
         }
       ]
     },
@@ -178,11 +829,39 @@
       "title": "Shot",
       "items": [
         {
-          "id": "shot-1",
-          "name": "Shot 1",
-          "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "id": "tekila-gold",
+          "name": "Tekila Gold",
+          "description": "",
+          "price": 250,
+          "image": ""
+        },
+        {
+          "id": "tekila-shot",
+          "name": "Tekila Shot",
+          "description": "",
+          "price": 225,
+          "image": ""
+        },
+        {
+          "id": "viski-shot",
+          "name": "Viski Shot",
+          "description": "",
+          "price": 285,
+          "image": ""
+        },
+        {
+          "id": "likor-shot",
+          "name": "Likör Shot",
+          "description": "",
+          "price": 285,
+          "image": ""
+        },
+        {
+          "id": "baileys-shot",
+          "name": "Baileys Shot",
+          "description": "",
+          "price": 240,
+          "image": ""
         }
       ]
     },
@@ -191,11 +870,74 @@
       "title": "Soğuk İçecekler",
       "items": [
         {
-          "id": "soft-drink-1",
-          "name": "Soft Drink 1",
-          "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "id": "coca-cola",
+          "name": "Coca-Cola",
+          "description": "",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "id": "coca-cola-zero",
+          "name": "Coca-Cola Zero",
+          "description": "",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "id": "fanta",
+          "name": "Fanta",
+          "description": "",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "id": "sprite",
+          "name": "Sprite",
+          "description": "",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "id": "fuse-tea",
+          "name": "Fuse Tea",
+          "description": "Limon, Şeftali, Mango",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "id": "cappy-meyve-suyu",
+          "name": "Cappy Meyve Suyu",
+          "description": "Vişne, Şeftali, Karışık, Kayısı",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "id": "red-bull",
+          "name": "Red Bull",
+          "description": "",
+          "price": 199,
+          "image": ""
+        },
+        {
+          "id": "damla-soda",
+          "name": "Damla Soda",
+          "description": "",
+          "price": 99,
+          "image": ""
+        },
+        {
+          "id": "ayran",
+          "name": "Ayran",
+          "description": "",
+          "price": 79,
+          "image": ""
+        },
+        {
+          "id": "damla-su",
+          "name": "Damla Su",
+          "description": "",
+          "price": 79,
+          "image": ""
         }
       ]
     },
@@ -204,11 +946,32 @@
       "title": "Sıcak İçecekler",
       "items": [
         {
-          "id": "hot-drink-1",
-          "name": "Hot Drink 1",
+          "id": "turk-kahvesi",
+          "name": "Türk Kahvesi",
           "description": "Sadece 11:00-17:00 arası",
-          "price": 55,
-          "image": "/window.svg"
+          "price": 180,
+          "image": ""
+        },
+        {
+          "id": "nescafe",
+          "name": "Nescafe",
+          "description": "Sadece 11:00-17:00 arası",
+          "price": 180,
+          "image": ""
+        },
+        {
+          "id": "filtre-kahve",
+          "name": "Filtre Kahve",
+          "description": "Sadece 11:00-17:00 arası",
+          "price": 180,
+          "image": ""
+        },
+        {
+          "id": "cay-fincan",
+          "name": "Çay Fincan",
+          "description": "Sadece 11:00-17:00 arası",
+          "price": 150,
+          "image": ""
         }
       ]
     },
@@ -217,11 +980,25 @@
       "title": "Çerezler",
       "items": [
         {
-          "id": "cookie-1",
-          "name": "Cookie 1",
-          "description": "33cl",
-          "price": 55,
-          "image": "/window.svg"
+          "id": "tuzlu-fistik",
+          "name": "Tuzlu Fıstık",
+          "description": "",
+          "price": 160,
+          "image": ""
+        },
+        {
+          "id": "karisik-cerez",
+          "name": "Karışık Çerez",
+          "description": "",
+          "price": 230,
+          "image": ""
+        },
+        {
+          "id": "tursu",
+          "name": "Turşu",
+          "description": "",
+          "price": 160,
+          "image": ""
         }
       ]
     }

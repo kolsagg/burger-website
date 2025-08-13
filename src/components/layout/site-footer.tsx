@@ -30,7 +30,6 @@ const navItems = [
   { label: "Ana Sayfa", href: "/" },
   { label: "Hakkımızda", href: "/hakkimizda" },
   { label: "Şubeler", href: "/subeler" },
-  { label: "Galeri", href: "/galeri" },
   { label: "İletişim", href: "/iletisim" },
 ];
 

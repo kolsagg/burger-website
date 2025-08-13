@@ -20,8 +20,26 @@ function Tabs({
 
 function TabsList({
   className,
+  onClick,
   ...props
 }: React.ComponentProps<typeof TabsPrimitive.List>) {
+  const handleTabsListClick = React.useCallback<NonNullable<React.ComponentProps<typeof TabsPrimitive.List>["onClick"]>>(
+    (event) => {
+      if (onClick) onClick(event)
+      if (event.defaultPrevented) return
+
+      const target = event.target as HTMLElement | null
+      const clickedTab = target?.closest('[role="tab"]')
+      if (!clickedTab) return
+
+      if (typeof window === "undefined") return
+      const isMobile = window.matchMedia("(max-width: 767px)").matches
+      if (!isMobile) return
+
+      window.scrollTo({ top: 0, behavior: "smooth" })
+    },
+    [onClick]
+  )
   return (
     <TabsPrimitive.List
       data-slot="tabs-list"
@@ -30,6 +48,7 @@ function TabsList({
         className
       )}
       {...props}
+      onClick={handleTabsListClick}
     />
   )
 }

@@ -18,8 +18,30 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Burgerpark",
+  title: {
+    default: "Burgerpark",
+    template: "%s | Burgerpark",
+  },
   description: "Burgerpark kurumsal web sitesi",
+  metadataBase: new URL("https://burgerpark.com.tr"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "tr_TR",
+    siteName: "Burgerpark",
+    title: "Burgerpark",
+    description: "Burgerpark kurumsal web sitesi",
+    images: [{ url: "/Burger-Park-White.png" }],
+    url: "https://burgerpark.com.tr",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Burgerpark",
+    description: "Burgerpark kurumsal web sitesi",
+    images: ["/Burger-Park-White.png"],
+  },
 };
 
 export default function RootLayout({
