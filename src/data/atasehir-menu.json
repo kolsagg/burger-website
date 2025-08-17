@@ -11,84 +11,84 @@
           "name": "Kaburga Topları Mozzarellalı ve Cheddarlı",
           "description": "5 Adet Cheddarlı Dana Kaburga Topu ve Patates Kızartması ile Servis Edilir",
           "price": 475,
-          "image": ""
+          "image": "/atistirmalik/kaburga-toplari.jpg"
         },
         {
           "id": "truflu-parmesanli-french-fries",
           "name": "Trüflü Parmesanlı French Fries",
           "description": "Kızarmış Patates, Siyah Trüf Yağı ve Parmesan Peyniri ile Servis Edilir",
           "price": 425,
-          "image": ""
+          "image": "/atistirmalik/trüf-parmesan-patates.jpg"
         },
         {
           "id": "cheddarlı-fume-etli-patates",
           "name": "Cheddarlı Füme Etli Patates Kızartması",
           "description": "Patates Kızartması, Doğranmış Füme Etleri ve Cheddar Sos ile Servis Edilir",
           "price": 495,
-          "image": ""
+          "image": "/atistirmalik/füme-patates.jpg"
         },
         {
           "id": "cheddarlı-kaburga-etli-patates",
           "name": "Cheddarlı Kaburga Etli Patates Kızartması",
           "description": "Patates Kızartması, Fırınlanmış Kaburga Eti ve Cheddar Sos ile Servis Edilir",
           "price": 495,
-          "image": ""
+          "image": "/atistirmalik/kaburga-patates.jpg"
         },
         {
           "id": "mozzarella-sticks",
           "name": "Mozzarella Sticks",
           "description": "5 adet Mozzarella Stick, Patates Kızartması ile Birlikte Servis Edilir",
           "price": 449,
-          "image": ""
+          "image": "/atistirmalik/mozarella-sticks.jpg"
         },
         {
           "id": "park-chickhen",
           "name": "Park Chickhen",
           "description": "Kızartılmış Çıtır Tavuk Küpleri, Özel Sriracha Sos, Susam ve Patates Kızartması ile Servis Edilir",
           "price": 449,
-          "image": ""
+          "image": "/atistirmalik/park-chickhen.jpg"
         },
         {
           "id": "kaburgali-mozzarellali-citir-muska",
           "name": "Kaburgalı Mozzarellalı Çıtır Muska Böreği",
           "description": "5 Adet Kaburga Etli Cheddarlı Muska Böreği, Patates Kızartması ile Birlikte Servis Edilir",
           "price": 475,
-          "image": ""
+          "image": "/atistirmalik/muska-boregi.jpg"
         },
         {
           "id": "beer-combo-tabagi",
           "name": "Beer Combo Tabağı",
           "description": "2 Adet Cheddarlı Mozzarellalı Dana Kaburga Topu, 2 Adet Mozzarella Stick, 2 Adet Kaburgalı Mozzarellalı Muska Böreği, 2 Adet Chickhen Tenders, Patates Kızartması ve Özel Soslar ile Servis Edilir",
           "price": 695,
-          "image": ""
+          "image": "/atistirmalik/beer-combo.jpg"
         },
         {
           "id": "hardalli-izgara-sosis",
           "name": "Hardallı Izgara Sosis",
           "description": "Izgarada 22 cm frankfurter sosis üzeri hardal sos ve patates kızartması eşliğinde servis edilir",
           "price": 475,
-          "image": ""
+          "image": "/atistirmalik/ızgara-sosis.jpg"
         },
         {
           "id": "chickhen-tenders",
           "name": "Chickhen Tenders",
           "description": "4 adet Chickhen Tenders, Patates Kızartması ile Servis Edilir",
           "price": 449,
-          "image": ""
+          "image": "/atistirmalik/tenders.jpg"
         },
         {
           "id": "patates-kizartmasi",
           "name": "Patates Kızartması",
           "description": "",
           "price": 250,
-          "image": ""
+          "image": "/atistirmalik/patates-kızartması.jpg"
         },
         {
           "id": "cheddarlı-patates-kizartmasi",
           "name": "Cheddarlı Patates Kızartması",
           "description": "",
           "price": 325,
-          "image": ""
+          "image": "/atistirmalik/cheddar-patates.jpg"
         }
       ]
     },
@@ -101,56 +101,56 @@
           "name": "Burger Park Klasik",
           "description": "120g Burger Köftesi, Mor Soğan Halkası, Turşu, Domates, BP Sos ve Patates Kızartması ile Servis Edilir",
           "price": 506,
-          "image": ""
+          "image": "/hamburger/klasik-burger.jpg"
         },
         {
           "id": "truf-burger",
           "name": "Trüf Burger",
           "description": "120g Burger Köftesi, Karamelize Soğan, Cheddar Peyniri, Trüf Sos ve Patates Kızartması ile Servis Edilir",
           "price": 545,
-          "image": ""
+          "image": "/hamburger/trüf.jpg"
         },
         {
           "id": "barbeku-amerikan-burger",
           "name": "Barbekü Amerikan Burger",
           "description": "120g Burger Köftesi, Füme Antrikot, Karamelize Soğan, Barbekü Sos, Cheddar Peyniri ve Patates Kızartması Meşe Talaşı ile Tütsülenerek Servis Edilir",
           "price": 575,
-          "image": ""
+          "image": "/hamburger/bbq-amerikan.jpg"
         },
         {
           "id": "xl-barbeku-amerikan-burger",
           "name": "XL Barbekü Amerikan Burger",
           "description": "240g Burger Köftesi, 2 Adet Füme Antrikot, Karamelize Soğan, Barbekü Sos, Cheddar Peyniri ve Duble Patates Kızartması ile Servis Edilir",
           "price": 659,
-          "image": ""
+          "image": "/hamburger/xl-bbq-amerikan.jpg"
         },
         {
           "id": "cheese-burger",
           "name": "Cheese Burger",
           "description": "120g Burger Köftesi, Karamelize Soğan, BP Sos, Turşu, Cheddar Peyniri ve Patates Kızartması ile Servis Edilir",
           "price": 535,
-          "image": ""
+          "image": "/hamburger/cheeseburger.jpg"
         },
         {
           "id": "smoke-kaburga-burger",
           "name": "Smoke Kaburga Burger",
           "description": "Ağır Ateşte Pişmiş Kaburga Eti, Karamelize Soğan, Cheddar Peyniri, BP Sos ve Patates Kızartması Meşe Talaşı ile Tütsülenerek Servis Edilir",
           "price": 585,
-          "image": ""
+          "image": "/hamburger/smoke-kaburga.jpg"
         },
         {
           "id": "chicken-burger",
           "name": "Chicken Burger",
           "description": "Burger Ekmeği Arasında Chicken Royal Tenders, BP Sos, Domates, Salatalık Turşusu, Patates Kızartması ile Servis Edilir",
           "price": 506,
-          "image": ""
+          "image": "/hamburger/chicken-burger.jpg"
         },
         {
           "id": "big-burger-kutusu",
           "name": "Big Burger Kutusu",
           "description": "Özel Baskılı Kutusunda 1 Adet Klasik Burger, 1 Adet Burger Park Hot Dog, 4 Adet Chicken Tenders, 5 Adet Kaburga Topu ve Patates Kızartması ile Servis Edilir",
           "price": 1499,
-          "image": ""
+          "image": "/hamburger/burgerkutusu.jpg"
         },
         {
           "id": "ekstra-fume-eti",
@@ -198,28 +198,28 @@
           "name": "Klasik Hotdog",
           "description": "22cm Hotdog Sosis, Hardal, Turşu ve Patates Kızartması ile Servis Edilir",
           "price": 550,
-          "image": ""
+          "image": "/hotdog/klasik-hotdog.jpg"
         },
         {
           "id": "burger-park-hotdog",
           "name": "Burger Park Hotdog",
           "description": "22cm Hotdog Sosis, Turşu, Füme Antrikot, Barbekü Sos, BP Sos, Çıtır Soğan ve Patates Kızartması ile Servis Edilir",
           "price": 580,
-          "image": ""
+          "image": "/hotdog/burgerpark-hotdog.jpg"
         },
         {
           "id": "cheddarlı-hotdog",
           "name": "Cheddarlı Hotdog",
           "description": "22cm Hotdog Sosis, Turşu, Füme Antrikot, BP Sos, Cheddar Peyniri, Çıtır Soğan ve Patates Kızartması ile Servis Edilir",
           "price": 580,
-          "image": ""
+          "image": "/hotdog/cheddar-hotdog.jpg"
         },
         {
           "id": "kaburgali-hotdog",
           "name": "Kaburgalı Hotdog",
           "description": "22cm Hotdog Sosis, Ağır Ateşte Pişmiş Kaburga Eti, Turşu, Barbekü Sos, BP Sos, Çıtır Soğan ve Patates Kızartması ile Servis Edilir",
           "price": 595,
-          "image": ""
+          "image": "/hotdog/kaburga-hotdog.jpg"
         }
       ]
     },

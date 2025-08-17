@@ -57,15 +57,17 @@ const MenuCategorySection: React.FC<MenuCategorySectionProps> = ({ category }) =
                 }
               }}
             >
-              <div className="relative w-full aspect-[3/2] sm:aspect-[4/3] bg-gradient-to-br from-muted to-secondary rounded-md">
-                <Image
-                  src={item.image || "/burgerpark-logo.png"}
-                  alt={item.name}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover"
-                />
-              </div>
+              {item.image && (
+                <div className="relative w-full aspect-[3/2] sm:aspect-[4/3] bg-gradient-to-br from-muted to-secondary rounded-md mb-6 -mt-6">
+                  <Image
+                    src={item.image}
+                    alt={item.name}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover rounded-md opacity-90 "
+                  />
+                </div>
+              )}
               <CardHeader>
                 <CardTitle className="text-sm sm:text-lg">{item.name}</CardTitle>
                 <CardDescription className="text-xs sm:text-sm">{item.description ?? ""}</CardDescription>
@@ -88,17 +90,17 @@ const MenuCategorySection: React.FC<MenuCategorySectionProps> = ({ category }) =
               </DialogDescription>
             )}
           </DialogHeader>
-          <div className="relative mt-2 aspect-[4/3] w-full">
-            {selectedItem && (
+          {selectedItem?.image && (
+            <div className="relative mt-2 aspect-[4/3] w-full">
               <Image
-                src={selectedItem.image || "/burgerpark-logo.png"}
+                src={selectedItem.image}
                 alt={selectedItem.name}
                 fill
                 sizes="90vw"
                 className="rounded-md object-cover"
               />
-            )}
-          </div>
+            </div>
+          )}
           <div className="mt-4 text-right text-lg font-semibold">
             {selectedItem ? `₺${selectedItem.price}` : ""}
           </div>
