@@ -25,7 +25,7 @@
           "name": "Cheddarlı Füme Etli Patates Kızartması",
           "description": "Patates Kızartması, Doğranmış Füme Etleri ve Cheddar Sos ile Servis Edilir",
           "price": 495,
-          "image": "/atistirmalik/füme-patates.jpg"
+          "image": "/atistirmalik/fume-patates.jpg"
         },
         {
           "id": "cheddarlı-kaburga-etli-patates",
@@ -67,7 +67,7 @@
           "name": "Hardallı Izgara Sosis",
           "description": "Izgarada 22 cm frankfurter sosis üzeri hardal sos ve patates kızartması eşliğinde servis edilir",
           "price": 475,
-          "image": "/atistirmalik/ızgara-sosis.jpg"
+          "image": "/atistirmalik/izgara-sosis.jpg"
         },
         {
           "id": "chickhen-tenders",

@@ -18,14 +18,14 @@
           "name": "Trüflü Parmesanlı French Fries",
           "description": "Kızarmış Patates, Siyah Trüf Yağı ve Parmesan Peyniri ile Servis Edilir",
           "price": 340,
-          "image": "/atistirmalik/trüf-parmesan-patates.jpg"
+          "image": "/atistirmalik/truf-parmesan-patates.jpg"
         },
         {
           "id": "cheddarli-fume-etli-patates-kizartmasi",
           "name": "Cheddarlı Füme Etli Patates Kızartması",
           "description": "Patates Kızartması, Doğranmış Füme Etleri Ve Cheddar Sos ile Servis Edilir",
           "price": 485,
-          "image": "/atistirmalik/füme-patates.jpg"
+          "image": "/atistirmalik/fume-patates.jpg"
         },
         {
           "id": "cheddarli-kaburga-etli-patates-kizartmasi",
@@ -53,7 +53,7 @@
           "name": "Izgara Sosis Tabağı",
           "description": "Izgara Özel Hotdog Sosisi,Patates Kızartması ve Soslar ile Servis Edilir",
           "price": 370,
-          "image": "/atistirmalik/ızgara-sosis.jpg"
+          "image": "/atistirmalik/izgara-sosis.jpg"
         },
         {
           "id": "patates-kizartmasi",
@@ -87,7 +87,7 @@
           "name": "Trüf Burger",
           "description": "120g Burger Köftesi,Karamelize Soğan,Cheddar Peyniri,Trüf Sos ve Patates Kızartması ile Servis Edilir",
           "price": 495,
-          "image": "/hamburger/trüf.jpg"
+          "image": "/hamburger/truf.jpg"
         },
         {
           "id": "barbeku-amerikan-burger",
