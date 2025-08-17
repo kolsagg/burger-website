@@ -18,7 +18,7 @@
           "name": "Trüflü Parmesanlı French Fries",
           "description": "Kızarmış Patates, Siyah Trüf Yağı ve Parmesan Peyniri ile Servis Edilir",
           "price": 425,
-          "image": "/atistirmalik/trüf-parmesan-patates.jpg"
+          "image": "/atistirmalik/truf-parmesan-patates.jpg"
         },
         {
           "id": "cheddarlı-fume-etli-patates",
@@ -108,7 +108,7 @@
           "name": "Trüf Burger",
           "description": "120g Burger Köftesi, Karamelize Soğan, Cheddar Peyniri, Trüf Sos ve Patates Kızartması ile Servis Edilir",
           "price": 545,
-          "image": "/hamburger/trüf.jpg"
+          "image": "/hamburger/truf.jpg"
         },
         {
           "id": "barbeku-amerikan-burger",

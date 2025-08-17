@@ -29,7 +29,7 @@ export const branches: BranchInfo[] = [
     phone: "+90 216 642 68 62",
     hours: "Haftaiçi 11:00–22:00, Haftasonu 11:00–22:00",
     coords: { lat: 41.033092205761974, lng: 29.174915641106907 },
-    images: ["/hamburger/trüf.jpg", "/burgerpark-logo.png", "/hamburger/chicken-burger.jpg"],
+    images: ["/hamburger/truf.jpg", "/burgerpark-logo.png", "/hamburger/chicken-burger.jpg"],
     menuSlug: "cekmekoy",
     description: "Burger Park Çekmeköy, kafe konseptiyle öne çıkan bir şubemizdir. Hem özenle hazırlanan burger ve hotdoglarımızı tadabilir, hem de kahve, çay, limonata veya milkshake gibi sıcak-soğuk içeceklerimiz eşliğinde keyifli vakit geçirebilirsiniz. Samimi ve rahat atmosferiyle, arkadaşlarınızla buluşmak veya sakin bir mola vermek için ideal bir ortam sunar.",
   },
