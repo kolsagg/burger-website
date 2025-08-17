@@ -77,7 +77,7 @@ export const SiteHeader = () => {
           className="flex items-center gap-2 font-semibold text-base tracking-wide text-primary-foreground hover:text-accent rounded-xs"
           aria-label="Burgerpark anasayfa"
         >
-          <Image src="/Burger-Park-White.png" alt="Burgerpark" width={70} height={70} />
+          <Image src="/Burger-Park-White.png" alt="Burgerpark" width={80} height={80} />
         </Link>
 
         {/* Desktop Nav */}

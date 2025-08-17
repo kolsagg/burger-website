@@ -52,8 +52,8 @@ const features = [
     Icon: Sparkles,
   },
   {
-    title: "Ateşte Pişirme",
-    description: "Mükemmel mühür, kusursuz pişirme",
+    title: "El Yapımı Burgerler",
+    description: "Her aşaması özenle hazırlanan el yapımı burgerler",
     Icon: Flame,
   },
   {
@@ -69,41 +69,41 @@ export default function Home() {
       {/* Hero Section */}
       <section
         id="hero"
-        className="relative isolate flex min-h-[94vh] items-center overflow-hidden bg-primary py-20"
+        className="relative isolate flex min-h-[94vh] items-center overflow-hidden bg-primary-dark py-20"
         aria-label="Hero section"
       >
         <div className="absolute inset-0 -z-10 flex h-full w-full items-center justify-center">
           <Marquee>
             <MarqueeContent pauseOnHover={false} play={true}>
-              <MarqueeItem>
+              <MarqueeItem className="mx-0">
                 <Image
                   src="/anasayfa1.png"
                   alt="burger pub"
-                  width={1625}
-                  height={1024}
-                  className="opacity-70 rounded-md"
+                  width={2150}
+                  height={1000}
+                  className="opacity-70"
                   sizes="100vw"
                   priority
                 />
               </MarqueeItem>
-              <MarqueeItem>
+              <MarqueeItem className="mx-0">
                 <Image
                   src="/hotdog/burgerpark-hotdog.jpg"
                   alt="burger park hotdog"
-                  width={1024}
-                  height={1024}
-                  className="opacity-70 rounded-md"
+                  width={1358}
+                  height={1000}
+                  className="opacity-70"
                   sizes="(max-width: 640px) 90vw, (max-width: 1024px) 60vw, 50vw"
                   priority
                 />
               </MarqueeItem>
-              <MarqueeItem>
+              <MarqueeItem className="mx-0">
                 <Image
                   src="/hamburger/cheeseburger.jpg"
                   alt="cheeseburger"
-                  width={1024}
-                  height={1024}
-                  className="opacity-70 rounded-md"
+                  width={1358}
+                  height={1000}
+                  className="opacity-70"
                   sizes="(max-width: 640px) 90vw, (max-width: 1024px) 60vw, 50vw"
                   priority
                 />
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
         <div className="mx-auto flex w-full max-w-7xl flex-col items-start gap-6 px-4 text-left text-primary-foreground sm:px-6 lg:px-8">
           <h1 className="font-heading text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-            Gurme Burger Deneyimi
+            Gurme Burger ve Hotdog Deneyimi
           </h1>
           <p className="max-w-2xl text-base text-primary-foreground/80 sm:text-lg">
             Şehrin iki yakasında aynı kalite, aynı lezzet. Menülerimizi keşfedin
