@@ -12,17 +12,14 @@ const branches: Branch[] = [
   {
     id: "atasehir",
     name: "Burger Pub Ataşehir",
-    addressLines: ["Ataşehir Bulvarı, Ata Blokları 3-3", "Ataşehir, İstanbul"],
-    phone: "+90 216 000 00 00",
+    addressLines: ["Atatürk Mah. Atatürk Blv. Ata Blokları 3/3 No:3 , Ataşehir / İstanbul"],
+    phone: "+90 530 825 82 60",
   },
   {
     id: "cekmekoy",
     name: "Burger Park Çekmeköy",
-    addressLines: [
-      "Mimar Sinan, Mimar Sinan Cd. No: 9/A",
-      "Çekmeköy, İstanbul",
-    ],
-    phone: "+90 216 111 11 11",
+    addressLines: ["Mimar Sinan, Mimar Sinan Cd. No: 9/A, 34782 Çekmeköy / İstanbul"],
+    phone: "+90 216 642 68 62",
   },
 ];
 
@@ -56,7 +53,7 @@ const SiteFooter = () => {
             />
           </div>
           <p className="mt-2 max-w-sm text-sm text-primary-foreground/80">
-            Gurme burger deneyimini şehrin iki yakasında aynı kaliteyle
+            Gurme burger deneyimini her şubede aynı kaliteyle
             sunuyoruz.
           </p>
         </div>

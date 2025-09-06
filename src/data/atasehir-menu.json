@@ -232,140 +232,140 @@
           "name": "No: 10",
           "description": "Gin, Portakal Likörü, Limon Suyu, Kuzu Kulak, Sweet Sour Mix",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/no-10.jpeg"
         },
         {
           "id": "no-20",
           "name": "No: 20",
           "description": "Gin, Mürver Likörü, Zencefil, Salatalık, Fesleğen, Limon Suyu, Sweet Sour Mix",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/no-20.jpeg"
         },
         {
           "id": "no-30",
           "name": "No: 30",
           "description": "Vodka, Kahlua, Espresso",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/no-30.jpeg"
         },
         {
           "id": "no-40",
           "name": "No: 40",
           "description": "Tekila Gold, Aperol, Limon Suyu, Acı Biber, Passion Püresi",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/no-40.jpeg"
         },
         {
           "id": "cosmopolitian",
           "name": "Cosmopolitian",
           "description": "Vodka, Portakal Likörü, Yaban Mersini Suyu, Limon Suyu",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/cosmopolitian.jpeg"
         },
         {
           "id": "apple-martini",
           "name": "Apple Martini",
           "description": "Vodka, Şeftali Likörü, Yeşil Elma Suyu",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/apple-martini.jpeg"
         },
         {
           "id": "sex-on-the-beach",
           "name": "Sex on the Beach",
           "description": "Tekila, Vodka, Şeftali Likörü, Portakal Suyu, Nar Şurubu",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/sex-on-the-beach.jpeg"
         },
         {
           "id": "negroni",
           "name": "Negroni",
           "description": "Gin, Campari Vermut, Martini Rosso Vermut",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/negroni.jpeg"
         },
         {
           "id": "white-lady",
           "name": "White Lady",
           "description": "Gin, Portakal Likörü, Limon Suyu",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/white-lady.jpeg"
         },
         {
           "id": "daiguri",
           "name": "Daiguri",
           "description": "Rom, Lime Suyu, Şeker Şurubu",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/daiguri.jpeg"
         },
         {
           "id": "mojito",
           "name": "Mojito",
           "description": "Rom, Lime Suyu, Şeker Şurubu, Nane, Soda",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/mojito.jpeg"
         },
         {
           "id": "cuba-libre",
           "name": "Cuba Libre",
           "description": "Rom, Limon Suyu, Cola",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/cuba-libre.jpeg"
         },
         {
           "id": "margarita",
           "name": "Margarita",
           "description": "Tekila, Portakal Likörü, Limon Suyu",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/margarita.jpeg"
         },
         {
           "id": "tekila-sunrise",
           "name": "Tekila Sunrise",
           "description": "Tekila, Portakal Suyu, Nar Şurubu",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/tekila-sunrise.jpeg"
         },
         {
           "id": "lyncburg-lemonade",
           "name": "Lyncburg Lemonade",
           "description": "Jack Daniels, Portakal Likörü, Sweet Sour Mix, Sprite",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/lyncburg-lemonade.jpeg"
         },
         {
           "id": "whiskey-sour",
           "name": "Whiskey Sour",
           "description": "Viski, Limon Suyu, Şeker Şurubu, Yumurta Akı",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/whiskey-sour.jpeg"
         },
         {
           "id": "creanbery-jack-cocktail",
           "name": "Creanbery Jack Cocktail",
           "description": "Jack Daniels, Sweet Sour Mix, Yaban Mersini Suyu, Sprite",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/creanbery-jack.jpeg"
         },
         {
           "id": "jameson-viski-kokteyl",
           "name": "Jameson Viski Kokteyl",
           "description": "Jameson Viski, Safari Likör, Limon Suyu, Ananas Suyu",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/jameson-viski-kokteyl.jpeg"
         },
         {
           "id": "black-russian",
           "name": "Black Russian",
           "description": "Vodka, Kahve Likörü",
           "price": 450,
-          "image": ""
+          "image": "/kokteyl/black-russian.jpeg"
         },
         {
           "id": "long-island",
           "name": "Long Island",
           "description": "Vodka, Rom, Tekila, Gin, Portakal Likörü, Limon Suyu, Cola",
           "price": 590,
-          "image": ""
+          "image": "/kokteyl/long-island.jpeg"
         }
       ]
     },
@@ -378,42 +378,42 @@
           "name": "Tuborg Gold Fıçı Bira",
           "description": "50cl",
           "price": 235,
-          "image": ""
+          "image": "/fici-bira/tuborg-50.jpeg"
         },
         {
           "id": "tuborg-gold-fici-bira-33cl",
           "name": "Tuborg Gold Fıçı Bira",
           "description": "33cl",
           "price": 215,
-          "image": ""
+          "image": "/fici-bira/tuborg-33.jpeg"
         },
         {
-          "id": "carslberg-fici-bira-50-cl",
-          "name": "Carslberg Fıçı Bira",
+          "id": "carlsberg-fici-bira-50-cl",
+          "name": "Carlsberg Fıçı Bira",
           "description": "50cl",
           "price": 235,
-          "image": ""
+          "image": "/fici-bira/carlsberg-50.jpeg"
         },
         {
           "id": "carslberg-33-cl",
           "name": "Carslberg Fıçı Bira",
           "description": "33cl",
           "price": 215,
-          "image": ""
+          "image": "/fici-bira/carlsberg-33.jpeg"
         },
         {
-          "id": "guinnes-fici-bira-50-cl",
-          "name": "Guinnes Fıçı Bira",
+          "id": "guinness-fici-bira-50-cl",
+          "name": "Guinness Fıçı Bira",
           "description": "50cl",
           "price": 390,
-          "image": ""
+          "image": "/fici-bira/guinness-50.jpeg"
         },
         {
-          "id": "guinnes-fici-bira-25-cl",
-          "name": "Guinnes Fıçı Bira",
+          "id": "guinness-fici-bira-25-cl",
+          "name": "Guinness Fıçı Bira",
           "description": "25cl",
           "price": 299,
-          "image": ""
+          "image": "/fici-bira/guinness-25.jpeg"
         }
       ]
     },
@@ -426,105 +426,105 @@
           "name": "Tuborg Gold",
           "description": "50cl",
           "price": 240,
-          "image": ""
+          "image": "/sise-bira/tuborg-gold.jpeg"
         },
         {
           "id": "tuborg-filtresiz-50cl",
           "name": "Tuborg Filtresiz",
           "description": "50cl",
           "price": 265,
-          "image": ""
+          "image": "/sise-bira/tuborg-filtresiz.jpeg"
         },
         {
           "id": "tuborg-amber-50cl",
           "name": "Tuborg Amber",
           "description": "50cl",
           "price": 265,
-          "image": ""
+          "image": "/sise-bira/tuborg-amber.jpeg"
         },
         {
           "id": "carlsberg-50cl",
           "name": "Carlsberg",
           "description": "50cl",
           "price": 240,
-          "image": ""
+          "image": "/sise-bira/carlsberg.jpeg"
         },
         {
           "id": "carlsberg-luna-50cl",
           "name": "Carlsberg Luna",
           "description": "50cl",
           "price": 265,
-          "image": ""
+          "image": "/sise-bira/carlsberg-luna.jpeg"
         },
         {
-          "id": "weihenstephan-33cl",
-          "name": "Weihenstephan",
+          "id": "weihenstephaner-33cl",
+          "name": "Weihenstephaner",
           "description": "33cl",
           "price": 275,
-          "image": ""
+          "image": "/sise-bira/weihenstephaner.jpeg"
         },
         {
-          "id": "weihenstephan-vitus-33cl",
-          "name": "Weihenstephan Vitus",
+          "id": "weihenstephaner-vitus-33cl",
+          "name": "Weihenstephaner Vitus",
           "description": "33cl",
           "price": 290,
-          "image": ""
+          "image": "/sise-bira/weihenstephaner-vitus.jpeg"
         },
         {
           "id": "desperados-33cl",
           "name": "Desperados",
           "description": "33cl",
           "price": 300,
-          "image": ""
+          "image": "/sise-bira/desperados.jpeg"
         },
         {
           "id": "sol-33cl",
           "name": "Sol",
           "description": "33cl",
           "price": 280,
-          "image": ""
+          "image": "/sise-bira/sol.jpeg"
         },
         {
           "id": "blanc-1664-33cl",
           "name": "Blanc 1664",
           "description": "33cl",
           "price": 265,
-          "image": ""
+          "image": "/sise-bira/blanc.jpeg"
         },
         {
           "id": "efes-glutensiz-50cl",
           "name": "Efes Glutensiz",
           "description": "50cl",
           "price": 340,
-          "image": ""
+          "image": "/sise-bira/efes-glutensiz.jpeg"
         },
         {
           "id": "heineken-33cl",
           "name": "Heineken",
           "description": "33cl",
           "price": 290,
-          "image": ""
+          "image": "/sise-bira/heineken.jpeg"
         },
         {
-          "id": "frederik-ind-35cl",
-          "name": "Frederik Ind",
+          "id": "frederik-india-pale-ale-35cl",
+          "name": "Frederik India Pale Ale",
           "description": "35cl",
           "price": 275,
-          "image": ""
+          "image": "/sise-bira/frederik-india-pale-ale.jpeg"
         },
         {
           "id": "frederik-yakima-ipa-35cl",
           "name": "Frederik Yakima Ipa",
           "description": "35cl",
           "price": 275,
-          "image": ""
+          "image": "/sise-bira/frederik-yakima-ipa.jpeg"
         },
         {
           "id": "frederik-wheat-ipa-35cl",
           "name": "Frederik Wheat Ipa",
           "description": "35cl",
           "price": 275,
-          "image": ""
+          "image": "/sise-bira/frederik-wheat-ipa.jpeg"
         }
       ]
     },
@@ -537,28 +537,28 @@
           "name": "Bombays Sapphire",
           "description": "Tek",
           "price": 350,
-          "image": ""
+          "image": "/yuksek-alkol/bombay-sapphire.jpeg"
         },
         {
           "id": "gordons-london-dry",
           "name": "Gordon's London Dry",
           "description": "Tek",
           "price": 310,
-          "image": ""
+          "image": "/yuksek-alkol/gordons-london-dry.jpeg"
         },
         {
           "id": "gordons-premium-pink",
           "name": "Gordons Premium Pink",
           "description": "Tek",
           "price": 315,
-          "image": ""
+          "image": "/yuksek-alkol/gordons-premium-pink.jpeg"
         },
         {
           "id": "tanqueray",
           "name": "Tanqueray",
           "description": "Tek",
           "price": 350,
-          "image": ""
+          "image": "/yuksek-alkol/tanqueray.jpeg"
         }
       ]
     },
@@ -571,21 +571,21 @@
           "name": "Smirnoff",
           "description": "Tek",
           "price": 310,
-          "image": ""
+          "image": "/yuksek-alkol/smirnoff.jpeg"
         },
         {
           "id": "absolut",
           "name": "Absolut",
           "description": "Tek",
           "price": 325,
-          "image": ""
+          "image": "/yuksek-alkol/absolut.jpeg"
         },
         {
           "id": "ketel-one",
           "name": "Ketel One",
           "description": "Tek",
           "price": 340,
-          "image": ""
+          "image": "/yuksek-alkol/ketel-one.jpeg"
         }
       ]
     },
@@ -598,140 +598,140 @@
           "name": "Chivas Regal 12y",
           "description": "Tek",
           "price": 365,
-          "image": ""
+          "image": "/yuksek-alkol/chivas-regal-12.jpeg"
         },
         {
           "id": "chivas-regal-18y",
           "name": "Chivas Regal 18y",
           "description": "Tek",
           "price": 540,
-          "image": ""
+          "image": "/yuksek-alkol/chivas-regal-18.jpeg"
         },
         {
           "id": "chivas-regal-21y",
           "name": "Chivas Regal 21y",
           "description": "Tek",
           "price": 1390,
-          "image": ""
+          "image": "/yuksek-alkol/chivas-regal-21.jpeg"
         },
         {
           "id": "chivas-regal-extra",
           "name": "Chivas Regal Extra",
           "description": "Tek",
           "price": 365,
-          "image": ""
+          "image": "/yuksek-alkol/chivas-regal-extra.jpeg"
         },
         {
           "id": "johnnie-walker-black-label",
           "name": "Johnnie Walker Black Label",
           "description": "Tek",
           "price": 375,
-          "image": ""
+          "image": "/yuksek-alkol/black-label.jpeg"
         },
         {
           "id": "johnnie-walker-red-label",
           "name": "Johnnie Walker Red Label",
           "description": "Tek",
           "price": 310,
-          "image": ""
+          "image": "/yuksek-alkol/red-label.jpeg"
         },
         {
           "id": "johnnie-walker-double-black",
           "name": "Johnnie Walker Double Black",
           "description": "Tek",
           "price": 415,
-          "image": ""
+          "image": "/yuksek-alkol/double-black.jpeg"
         },
         {
-          "id": "dimple-gold-selection",
-          "name": "Dimple Gold Selection",
+          "id": "dimple-golden-selection",
+          "name": "Dimple Golden Selection",
           "description": "Tek",
           "price": 350,
-          "image": ""
+          "image": "/yuksek-alkol/dimple-golden-selection.jpeg"
         },
         {
           "id": "the-macallan-12",
           "name": "The Macallan 12",
           "description": "Tek",
           "price": 1090,
-          "image": ""
+          "image": "/yuksek-alkol/the-macallan.jpeg"
         },
         {
           "id": "aberlour",
           "name": "Aberlour",
           "description": "Tek",
           "price": 490,
-          "image": ""
+          "image": "/yuksek-alkol/aberlour.jpeg"
         },
         {
           "id": "ballantines",
           "name": "Ballantines",
           "description": "Tek",
           "price": 315,
-          "image": ""
+          "image": "/yuksek-alkol/ballantines.jpeg"
         },
         {
           "id": "ballantines-12y",
           "name": "Ballantines 12y",
           "description": "Tek",
           "price": 320,
-          "image": ""
+          "image": "/yuksek-alkol/ballantines-12.jpeg"
         },
         {
           "id": "jack-daniels",
           "name": "Jack Daniels",
           "description": "Tek",
           "price": 315,
-          "image": ""
+          "image": "/yuksek-alkol/jack-daniels.jpeg"
         },
         {
           "id": "jameson",
           "name": "Jameson",
           "description": "Tek",
           "price": 315,
-          "image": ""
+          "image": "/yuksek-alkol/jameson.jpeg"
         },
         {
           "id": "jameson-stout",
           "name": "Jameson Stout",
           "description": "Tek",
           "price": 325,
-          "image": ""
+          "image": "/yuksek-alkol/jameson-stout.jpeg"
         },
         {
           "id": "lagavulin-16-years",
           "name": "Lagavulin 16 Years",
           "description": "Tek",
           "price": 1390,
-          "image": ""
+          "image": "/yuksek-alkol/lagavulin-16.jpeg"
         },
         {
           "id": "talisker-10-years",
           "name": "Talisker 10 Years",
           "description": "Tek",
           "price": 640,
-          "image": ""
+          "image": "/yuksek-alkol/talisker-10.jpeg"
         },
         {
           "id": "cardhu-12-years",
           "name": "Cardhu 12 Years",
           "description": "Tek",
           "price": 490,
-          "image": ""
+          "image": "/yuksek-alkol/cardhu-12.jpeg"
         },
         {
           "id": "bulleit-bourbon",
           "name": "Bulleit Bourbon",
           "description": "Tek",
           "price": 490,
-          "image": ""
+          "image": "/yuksek-alkol/bulleit-bourbon.jpeg"
         },
         {
           "id": "glenkinchie-12y",
           "name": "Glenkinchie 12y",
           "description": "Tek",
           "price": 440,
-          "image": ""
+          "image": "/yuksek-alkol/glenkinchie-12.jpeg"
         }
       ]
     },

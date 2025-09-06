@@ -116,7 +116,7 @@ export default function Home() {
             Gurme Burger ve Hotdog Deneyimi
           </h1>
           <p className="max-w-2xl text-base text-primary-foreground/80 sm:text-lg">
-            Şehrin iki yakasında aynı kalite, aynı lezzet. Menülerimizi keşfedin
+            Her şubede aynı kalite, aynı lezzet. Menülerimizi keşfedin
             ve size en yakın şubeyi bulun.
           </p>
 
