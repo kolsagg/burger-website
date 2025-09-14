@@ -77,7 +77,7 @@ export const SiteHeader = () => {
           className="flex items-center gap-2 font-semibold text-base tracking-wide text-primary-foreground hover:text-accent rounded-xs"
           aria-label="Burgerpark anasayfa"
         >
-          <Image src="/Burger-Park-White.png" alt="Burgerpark" width={80} height={80} />
+          <Image src="/Burger-Park-White.webp" alt="Burgerpark" width={80} height={80} />
         </Link>
 
         {/* Desktop Nav */}
@@ -161,7 +161,7 @@ export const SiteHeader = () => {
             <SheetContent side="right" className="gap-0 p-0 bg-background/80 backdrop-blur-sm">
               <SheetHeader className="p-4">
                 <SheetTitle className="font-semibold text-lg">
-                <Image src="/burgerpark-logo.png" alt="Burgerpark" width={50} height={50} />
+                <Image src="/burgerpark-logo.webp" alt="Burgerpark" width={50} height={50} />
                 </SheetTitle>
               </SheetHeader>
               <nav className="flex flex-col" aria-label="Mobil navigasyon" onClick={() => setIsSheetOpen(false)}>

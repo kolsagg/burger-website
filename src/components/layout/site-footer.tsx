@@ -46,7 +46,7 @@ const SiteFooter = () => {
               BURGERPARK
             </div>
             <Image
-              src="/burgerpark-logo.png"
+              src="/burgerpark-logo.webp"
               alt="Burgerpark"
               width={100}
               height={100}

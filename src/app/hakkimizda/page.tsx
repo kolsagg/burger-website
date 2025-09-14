@@ -90,7 +90,7 @@ export default function AboutPage() {
           <div className="relative">
             <div className="relative aspect-[4/3] w-full">
               <Image
-                src="/cropped-Burger-Park.png"
+                src="/cropped-Burger-Park.webp"
                 alt="Burgerpark"
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 50vw"

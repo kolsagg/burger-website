@@ -77,7 +77,7 @@ export default function Home() {
             <MarqueeContent pauseOnHover={false} play={true}>
               <MarqueeItem className="mx-0">
                 <Image
-                  src="/anasayfa1.png"
+                  src="/anasayfa1.webp"
                   alt="burger pub"
                   width={2150}
                   height={1000}
@@ -88,7 +88,7 @@ export default function Home() {
               </MarqueeItem>
               <MarqueeItem className="mx-0">
                 <Image
-                  src="/hotdog/burgerpark-hotdog.jpg"
+                  src="/hotdog/burgerpark-hotdog.webp"
                   alt="burger park hotdog"
                   width={1358}
                   height={1000}
@@ -99,7 +99,7 @@ export default function Home() {
               </MarqueeItem>
               <MarqueeItem className="mx-0">
                 <Image
-                  src="/hamburger/cheeseburger.jpg"
+                  src="/hamburger/cheeseburger.webp"
                   alt="cheeseburger"
                   width={1358}
                   height={1000}
@@ -188,7 +188,7 @@ export default function Home() {
           <MarqueeContent>
             <MarqueeItem>
               <Image
-                src="/markalar-burgerparklogo.png"
+                src="/markalar-burgerparklogo.webp"
                 alt="Burgerpark"
                 width={100}
                 height={100}
@@ -196,7 +196,7 @@ export default function Home() {
             </MarqueeItem>
             <MarqueeItem>
               <Image
-                src="/markalar-burgerpub.png"
+                src="/markalar-burgerpub.webp"
                 alt="Burgerpub"
                 width={100}
                 height={100}
@@ -204,7 +204,7 @@ export default function Home() {
             </MarqueeItem>
             <MarqueeItem>
               <Image
-                src="/markalar-parkchicken.png"
+                src="/markalar-parkchicken.webp"
                 alt="Parkchicken"
                 width={100}
                 height={100}

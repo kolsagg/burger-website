@@ -33,14 +33,14 @@ export const metadata: Metadata = {
     siteName: "Burgerpark",
     title: "Burgerpark",
     description: "Burgerpark kurumsal web sitesi",
-    images: [{ url: "/Burger-Park-White.png" }],
+    images: [{ url: "/Burger-Park-White.webp" }],
     url: "https://burgerpark.com.tr",
   },
   twitter: {
     card: "summary_large_image",
     title: "Burgerpark",
     description: "Burgerpark kurumsal web sitesi",
-    images: ["/Burger-Park-White.png"],
+    images: ["/Burger-Park-White.webp"],
   },
 };
 

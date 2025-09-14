@@ -11,63 +11,63 @@
           "name": "Kaburga Topları Mozarellalı Ve Cheddarlı",
           "description": "5 Adet Cheddarlı dana kaburgaTopu ve Patates Kızartması ile servis edilir",
           "price": 410,
-          "image": "/atistirmalik/kaburga-toplari.jpg"
+          "image": "/atistirmalik/kaburga-toplari.webp"
         },
         {
           "id": "truflu-parmesanli-french-fries",
           "name": "Trüflü Parmesanlı French Fries",
           "description": "Kızarmış Patates, Siyah Trüf Yağı ve Parmesan Peyniri ile Servis Edilir",
           "price": 340,
-          "image": "/atistirmalik/truf-parmesan-patates.jpg"
+          "image": "/atistirmalik/truf-parmesan-patates.webp"
         },
         {
           "id": "cheddarli-fume-etli-patates-kizartmasi",
           "name": "Cheddarlı Füme Etli Patates Kızartması",
           "description": "Patates Kızartması, Doğranmış Füme Etleri Ve Cheddar Sos ile Servis Edilir",
           "price": 485,
-          "image": "/atistirmalik/fume-patates.jpg"
+          "image": "/atistirmalik/fume-patates.webp"
         },
         {
           "id": "cheddarli-kaburga-etli-patates-kizartmasi",
           "name": "Cheddarlı Kaburga Etli Patates Kızartması",
           "description": "Patates Kızartması, Fırınlanmış Kaburga Eti Ve Cheddar Sos ile Servis Edilir",
           "price": 485,
-          "image": "/atistirmalik/kaburga-patates.jpg"
+          "image": "/atistirmalik/kaburga-patates.webp"
         },
         {
           "id": "mozzarella-stick",
           "name": "Mozzarella Stick",
           "description": "5 adet Mozzarella Stick,Patates Kızartması İle Birlikte Servis Edilir",
           "price": 295,
-          "image": "/atistirmalik/mozarella-sticks.jpg"
+          "image": "/atistirmalik/mozarella-sticks.webp"
         },
         {
           "id": "kaburgali-mozzarellali-citir-muska-boregi",
           "name": "Kaburgalı Mozzarellalı Çıtır Muska Böreği",
           "description": "5 Adet Kaburga Etli Cheddarlı Muska Böreği,Patates Kızartması İle Birlikte Servis Edilir",
           "price": 475,
-          "image": "/atistirmalik/muska-boregi.jpg"
+          "image": "/atistirmalik/muska-boregi.webp"
         },
         {
           "id": "izgara-sosis-tabagi",
           "name": "Izgara Sosis Tabağı",
           "description": "Izgara Özel Hotdog Sosisi,Patates Kızartması ve Soslar ile Servis Edilir",
           "price": 370,
-          "image": "/atistirmalik/izgara-sosis.jpg"
+          "image": "/atistirmalik/izgara-sosis.webp"
         },
         {
           "id": "patates-kizartmasi",
           "name": "Patates Kızartması",
           "description": "",
           "price": 195,
-          "image": "/atistirmalik/patates-kızartması.jpg"
+          "image": "/atistirmalik/patates-kızartması.webp"
         },
         {
           "id": "cheddarli-patates-kizartmasi",
           "name": "Cheddarlı Patates Kızartması",
           "description": "",
           "price": 210,
-          "image": "/atistirmalik/cheddar-patates.jpg"
+          "image": "/atistirmalik/cheddar-patates.webp"
         }
       ]
     },
@@ -80,49 +80,49 @@
           "name": "Burger Park Klasik",
           "description": "120g Burger Köftesi,Mor Soğan Halkası, Turşu, Domates,BP Sos ve Patates Kızartması ile Servis Edilir",
           "price": 475,
-          "image": "/hamburger/klasik-burger.jpg"
+          "image": "/hamburger/klasik-burger.webp"
         },
         {
           "id": "truf-burger",
           "name": "Trüf Burger",
           "description": "120g Burger Köftesi,Karamelize Soğan,Cheddar Peyniri,Trüf Sos ve Patates Kızartması ile Servis Edilir",
           "price": 495,
-          "image": "/hamburger/truf.jpg"
+          "image": "/hamburger/truf.webp"
         },
         {
           "id": "barbeku-amerikan-burger",
           "name": "Barbekü Amerikan Burger",
           "description": "120g Burger Köftesi,Füme Antrikot, Karamelize Soğan,Barbekü Sos,Cheddar Peyniri ve Patates Kızartması Meşe Talaşı ile Tütsülenerek Servis Edilir.",
           "price": 545,
-          "image": "/hamburger/bbq-amerikan.jpg"
+          "image": "/hamburger/bbq-amerikan.webp"
         },
         {
           "id": "xl-barbeku-amerikan-burger",
           "name": "Xl Barbekü Amerikan Burger",
           "description": "240gr Burger Köftesi, 2 Adet Füme Antrikot, Karamelize Soğan, Barbekü Sos, Cheddar Peyniri ve Duble Patates Kızartması ile Servis Edilir",
           "price": 695,
-          "image": "/hamburger/xl-bbq-amerikan.jpg"
+          "image": "/hamburger/xl-bbq-amerikan.webp"
         },
         {
           "id": "cheese-burger",
           "name": "Cheese Burger",
           "description": "120g Burger Köftesi, Karamelize Soğan, BP Sos,Turşu, Cheddar Peyniri Ve Patates Kızartması İle Servis Edilir",
           "price": 495,
-          "image": "/hamburger/cheeseburger.jpg"
+          "image": "/hamburger/cheeseburger.webp"
         },
         {
           "id": "smoke-kaburga-burger",
           "name": "Smoke Kaburga Burger",
           "description": "Ağır Ateşte Pişmiş Kaburga Eti, Karamelize Soğan, Cheddar Peyniri,BP Sos Ve Patates Kızartması. Meşe Talaşı ile Tütsülenerek Servis Edilir",
           "price": 545,
-          "image": "/hamburger/smoke-kaburga.jpg"
+          "image": "/hamburger/smoke-kaburga.webp"
         },
         {
           "id": "big-burger-kutusu",
           "name": "Big Burger Kutusu",
           "description": "Özel Baskılı Kutusunda 1 Adet Klasik Burger, 1 Adet Burger Park Hot Dog, 5 Adet Çıtır Kanat, 5 Adet Kaburga Topu ve Patates Kızartması ile Servis Edilir",
           "price": 1395,
-          "image": "/hamburger/burgerkutusu.jpg"
+          "image": "/hamburger/burgerkutusu.webp"
         },
         {
           "id": "ekstra-kofte",
@@ -163,28 +163,28 @@
           "name": "Klasik Hotdog",
           "description": "22cm Hotdog Sosisi, Hardal, Turşu ve Patates Kızartması ile Servis Edilir",
           "price": 475,
-          "image": "/hotdog/klasik-hotdog.jpg"
+          "image": "/hotdog/klasik-hotdog.webp"
         },
         {
           "id": "burger-park-hotdog",
           "name": "Burger Park Hotdog",
           "description": "22cm Hotdog Sosisi, Turşu, Füme Antrikot, Barbekü Sos,BP Sos,Çıtır Soğan ve Patates Kızartması ile Servis Edilir",
           "price": 485,
-          "image": "/hotdog/burgerpark-hotdog.jpg"
+          "image": "/hotdog/burgerpark-hotdog.webp"
         },
         {
           "id": "cheddarli-hotdog",
           "name": "Cheddarlı Hotdog",
           "description": "22cm Hotdog Sosisi, Turşu, Füme Antrikot, BP Sos, Cheddar Peyniri, Çıtır Soğanve Patates Kızartması ile Servis Edilir",
           "price": 485,
-          "image": "/hotdog/cheddar-hotdog.jpg"
+          "image": "/hotdog/cheddar-hotdog.webp"
         },
         {
           "id": "kaburgali-hotdog",
           "name": "Kaburgalı Hotdog",
           "description": "22cm Hotdog Sosisi,Ağır Ateşte Pişmiş Kaburga Eti, Turşu, Barbekü Sos, BP Sos Çıtır Soğan ve Patates Kızartması ile Servis Edilir",
           "price": 495,
-          "image": "/hotdog/kaburga-hotdog.jpg"
+          "image": "/hotdog/kaburga-hotdog.webp"
         }
       ]
     },
@@ -361,70 +361,70 @@
           "name": "Coca-Cola",
           "description": "Original, Zero",
           "price": 85,
-          "image": ""
+          "image": "/soguk-icecek/kola.webp"
         },
         {
           "id": "fanta",
           "name": "Fanta",
           "description": "",
           "price": 85,
-          "image": ""
+          "image": "/soguk-icecek/fanta.webp"
         },
         {
           "id": "sprite",
           "name": "Sprite",
           "description": "",
           "price": 85,
-          "image": ""
+          "image": "/soguk-icecek/sprite.webp"
         },
         {
           "id": "fuse-tea",
           "name": "Fuse Tea",
           "description": "Limon, Şeftali, Mango",
           "price": 85,
-          "image": ""
+          "image": "/soguk-icecek/fuse-tea.webp"
         },
         {
           "id": "cappy-meyve-suyu",
           "name": "Cappy Meyve Suyu",
           "description": "Vişne, Şeftali, Karışık, Kayısı",
           "price": 85,
-          "image": ""
+          "image": "/soguk-icecek/cappy.webp"
         },
         {
           "id": "damla-sade-soda",
           "name": "Damla Sade Soda",
           "description": "",
           "price": 35,
-          "image": ""
+          "image": "/soguk-icecek/damla-soda.webp"
         },
         {
           "id": "damla-limonlu-soda",
           "name": "Damla Limonlu Soda",
           "description": "",
           "price": 40,
-          "image": ""
+          "image": "/soguk-icecek/damla-limonlu-soda.webp"
         },
         {
           "id": "ayran",
           "name": "Ayran",
           "description": "",
           "price": 50,
-          "image": ""
+          "image": "/soguk-icecek/ayran.webp"
         },
         {
           "id": "pet-sise-su",
           "name": "Pet Şişe Su",
           "description": "",
           "price": 27.5,
-          "image": ""
+          "image": "/soguk-icecek/damla-pet-su.webp"
         },
         {
           "id": "cam-sise-su",
           "name": "Cam Şişe Su",
           "description": "",
           "price": 40,
-          "image": ""
+          "image": "/soguk-icecek/damla-su.webp"
         }
       ]
     },
@@ -437,28 +437,28 @@
           "name": "Cilekli Milkshake",
           "description": "",
           "price": 95,
-          "image": ""
+          "image": "/soguk-icecek/cilek-milkshake.webp"
         },
         {
           "id": "karamelli-milkshake",
           "name": "Karamelli Milkshake",
           "description": "",
           "price": 95,
-          "image": ""
+          "image": "/soguk-icecek/karamel-milkshake.webp"
         },
         {
           "id": "cikolatali-milkshake",
           "name": "Çikolatalı Milkshake",
           "description": "",
           "price": 95,
-          "image": ""
+          "image": "/soguk-icecek/cikolata-milkshake.webp"
         },
         {
           "id": "oreolu-milkshake",
           "name": "Oreolu Milkshake",
           "description": "",
           "price": 99,
-          "image": ""
+          "image": "/soguk-icecek/oreo-milkshake.webp"
         },
         {
           "id": "ekstra-sut-ve-aroma",
