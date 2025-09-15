@@ -1,6 +1,22 @@
 {
   "branchId": "atasehir",
   "branchName": "Burger Pub Ataşehir",
+  "campaigns": [
+    {
+      "id": "happy-hour",
+      "title": "🍔 Happy Hour! 🍔",
+      "description": "Her gün 12:00 - 15:00 arasında tüm yiyeceklerde %25 indirim! Hemen gelin ve lezzetin tadını çıkarın!",
+      "image": "/hamburger/cheeseburger.webp",
+      "validUntil": "Her gün 15:00'e kadar"
+    },
+    {
+      "id": "gel-al",
+      "title": "🎉 Gel-Al İndirim 🎉",
+      "description": "Günün her saati, tüm Gel-Al siparişlerinde %25 indirim! Lezzetli burgerlerimizi evinizde veya ofisinizde keyifle yiy",
+      "image": "/hamburger/bbq-amerikan.webp",
+      "validUntil": "Yalnızca Gel-Al siparişlerinde geçerlidir"
+    }
+  ],
   "categories": [
     {
       "id": "snacks",
@@ -788,13 +804,6 @@
           "image": "/yuksek-alkol/red-wine.webp"
         },
         {
-          "id": "kirmizi-sarap-sise",
-          "name": "Kırmızı Şarap (Şişe)",
-          "description": "",
-          "price": 1600,
-          "image": "/yuksek-alkol/red-wine.webp"
-        },
-        {
           "id": "beyaz-sarap-kadeh",
           "name": "Beyaz Şarap (Kadeh)",
           "description": "",
@@ -802,24 +811,10 @@
           "image": "/yuksek-alkol/white-wine.webp"
         },
         {
-          "id": "beyaz-sarap-sise",
-          "name": "Beyaz Şarap (Şişe)",
-          "description": "",
-          "price": 1600,
-          "image": "/yuksek-alkol/white-wine.webp"
-        },
-        {
           "id": "blush-sarap-kadeh",
           "name": "Blush Şarap (Kadeh)",
           "description": "",
           "price": 425,
-          "image": "/yuksek-alkol/blush-wine.webp"
-        },
-        {
-          "id": "blush-sarap-sise",
-          "name": "Blush Şarap (Şişe)",
-          "description": "",
-          "price": 1600,
           "image": "/yuksek-alkol/blush-wine.webp"
         }
       ]
@@ -999,6 +994,194 @@
           "description": "",
           "price": 160,
           "image": ""
+        }
+      ]
+    },
+    {
+      "id": "sise-alkol",
+      "title": "Şişe Alkol",
+      "items": [
+        {
+          "id": "smirnoff",
+          "name": "Smirnoff",
+          "description": "Şişe",
+          "price": 310,
+          "image": "/yuksek-alkol/smirnoff.webp"
+        },
+        {
+          "id": "absolut",
+          "name": "Absolut",
+          "description": "Şişe",
+          "price": 325,
+          "image": "/yuksek-alkol/absolut.webp"
+        },
+        {
+          "id": "ketel-one",
+          "name": "Ketel One",
+          "description": "Şişe",
+          "price": 340,
+          "image": "/yuksek-alkol/ketel-one.webp"
+        },
+        {
+          "id": "kirmizi-sarap-sise",
+          "name": "Kırmızı Şarap (Şişe)",
+          "description": "",
+          "price": 1600,
+          "image": "/yuksek-alkol/red-wine.webp"
+        },
+         {
+          "id": "beyaz-sarap-sise",
+          "name": "Beyaz Şarap (Şişe)",
+          "description": "",
+          "price": 1600,
+          "image": "/yuksek-alkol/white-wine.webp"
+        },
+        {
+          "id": "blush-sarap-sise",
+          "name": "Blush Şarap (Şişe)",
+          "description": "",
+          "price": 1600,
+          "image": "/yuksek-alkol/blush-wine.webp"
+        },
+         {
+          "id": "chivas-regal-12y",
+          "name": "Chivas Regal 12y",
+          "description": "Şişe",
+          "price": 365,
+          "image": "/yuksek-alkol/chivas-regal-12.webp"
+        },
+        {
+          "id": "chivas-regal-18y",
+          "name": "Chivas Regal 18y",
+          "description": "Şişe",
+          "price": 540,
+          "image": "/yuksek-alkol/chivas-regal-18.webp"
+        },
+        {
+          "id": "chivas-regal-21y",
+          "name": "Chivas Regal 21y",
+          "description": "Şişe",
+          "price": 1390,
+          "image": "/yuksek-alkol/chivas-regal-21.webp"
+        },
+        {
+          "id": "chivas-regal-extra",
+          "name": "Chivas Regal Extra",
+          "description": "Şişe",
+          "price": 365,
+          "image": "/yuksek-alkol/chivas-regal-extra.webp"
+        },
+        {
+          "id": "johnnie-walker-black-label",
+          "name": "Johnnie Walker Black Label",
+          "description": "Şişe",
+          "price": 375,
+          "image": "/yuksek-alkol/black-label.webp"
+        },
+        {
+          "id": "johnnie-walker-red-label",
+          "name": "Johnnie Walker Red Label",
+          "description": "Şişe",
+          "price": 310,
+          "image": "/yuksek-alkol/red-label.webp"
+        },
+        {
+          "id": "johnnie-walker-double-black",
+          "name": "Johnnie Walker Double Black",
+          "description": "Şişe",
+          "price": 415,
+          "image": "/yuksek-alkol/double-black.webp"
+        },
+        {
+          "id": "dimple-golden-selection",
+          "name": "Dimple Golden Selection",
+          "description": "Şişe",
+          "price": 350,
+          "image": "/yuksek-alkol/dimple-golden-selection.webp"
+        },
+        {
+          "id": "the-macallan-12",
+          "name": "The Macallan 12",
+          "description": "Şişe",
+          "price": 1090,
+          "image": "/yuksek-alkol/the-macallan.webp"
+        },
+        {
+          "id": "aberlour",
+          "name": "Aberlour",
+          "description": "Şişe",
+          "price": 490,
+          "image": "/yuksek-alkol/aberlour.webp"
+        },
+        {
+          "id": "ballantines",
+          "name": "Ballantines",
+          "description": "Şişe",
+          "price": 315,
+          "image": "/yuksek-alkol/ballantines.webp"
+        },
+        {
+          "id": "ballantines-12y",
+          "name": "Ballantines 12y",
+          "description": "Şişe",
+          "price": 320,
+          "image": "/yuksek-alkol/ballantines-12.webp"
+        },
+        {
+          "id": "jack-daniels",
+          "name": "Jack Daniels",
+          "description": "Şişe",
+          "price": 315,
+          "image": "/yuksek-alkol/jack-daniels.webp"
+        },
+        {
+          "id": "jameson",
+          "name": "Jameson",
+          "description": "Şişe",
+          "price": 315,
+          "image": "/yuksek-alkol/jameson.webp"
+        },
+        {
+          "id": "jameson-stout",
+          "name": "Jameson Stout",
+          "description": "Şişe",
+          "price": 325,
+          "image": "/yuksek-alkol/jameson-stout.webp"
+        },
+        {
+          "id": "lagavulin-16-years",
+          "name": "Lagavulin 16 Years",
+          "description": "Şişe",
+          "price": 1390,
+          "image": "/yuksek-alkol/lagavulin-16.webp"
+        },
+        {
+          "id": "talisker-10-years",
+          "name": "Talisker 10 Years",
+          "description": "Şişe",
+          "price": 640,
+          "image": "/yuksek-alkol/talisker-10.webp"
+        },
+        {
+          "id": "cardhu-12-years",
+          "name": "Cardhu 12 Years",
+          "description": "Şişe",
+          "price": 490,
+          "image": "/yuksek-alkol/cardhu-12.webp"
+        },
+        {
+          "id": "bulleit-bourbon",
+          "name": "Bulleit Bourbon",
+          "description": "Şişe",
+          "price": 490,
+          "image": "/yuksek-alkol/bulleit-bourbon.webp"
+        },
+        {
+          "id": "glenkinchie-12y",
+          "name": "Glenkinchie 12y",
+          "description": "Şişe",
+          "price": 440,
+          "image": "/yuksek-alkol/glenkinchie-12.webp"
         }
       ]
     }
